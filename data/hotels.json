@@ -4,9 +4,17 @@
     "type": "hotel",
     "adderess": "Anna Salai, Chennai",
     "distance": 3,
-    "category": ["luxury", "family"],
-    "images": ["https://example.com/h1.jpg"],
-    "rooms": ["Deluxe Room", "Suite Room"],
+    "category": [
+      "luxury",
+      "family"
+    ],
+    "images": [
+      "https://example.com/h1.jpg"
+    ],
+    "rooms": [
+      "Deluxe Room",
+      "Suite Room"
+    ],
     "cheapestPrice": 5000,
     "description": "Luxury hotel in Chennai.",
     "ratings": 4.5,
@@ -18,9 +26,17 @@
     "type": "resort",
     "adderess": "ECR Road, Chennai",
     "distance": 8,
-    "category": ["beach", "couple"],
-    "images": ["https://example.com/h2.jpg"],
-    "rooms": ["Beach Room", "Premium Suite"],
+    "category": [
+      "beach",
+      "couple"
+    ],
+    "images": [
+      "https://example.com/h2.jpg"
+    ],
+    "rooms": [
+      "Beach Room",
+      "Premium Suite"
+    ],
     "cheapestPrice": 7000,
     "description": "Beachside resort with sea view.",
     "ratings": 4.7,
@@ -32,9 +48,16 @@
     "type": "apartment",
     "adderess": "Velachery, Chennai",
     "distance": 5,
-    "category": ["budget", "family"],
-    "images": ["https://example.com/h3.jpg"],
-    "rooms": ["2BHK Apartment"],
+    "category": [
+      "budget",
+      "family"
+    ],
+    "images": [
+      "https://example.com/h3.jpg"
+    ],
+    "rooms": [
+      "2BHK Apartment"
+    ],
     "cheapestPrice": 3000,
     "description": "Affordable apartment stay.",
     "ratings": 4.1,
@@ -46,9 +69,17 @@
     "type": "hotel",
     "adderess": "MG Road, Bangalore",
     "distance": 2,
-    "category": ["luxury", "business"],
-    "images": ["https://example.com/h4.jpg"],
-    "rooms": ["Executive Room", "Suite"],
+    "category": [
+      "luxury",
+      "business"
+    ],
+    "images": [
+      "https://example.com/h4.jpg"
+    ],
+    "rooms": [
+      "Executive Room",
+      "Suite"
+    ],
     "cheapestPrice": 6500,
     "description": "Business class luxury hotel.",
     "ratings": 4.6,
@@ -60,9 +91,16 @@
     "type": "villa",
     "adderess": "Ooty Hills, Ooty",
     "distance": 10,
-    "category": ["nature", "family"],
-    "images": ["https://example.com/h5.jpg"],
-    "rooms": ["Private Villa"],
+    "category": [
+      "nature",
+      "family"
+    ],
+    "images": [
+      "https://example.com/h5.jpg"
+    ],
+    "rooms": [
+      "Private Villa"
+    ],
     "cheapestPrice": 8000,
     "description": "Peaceful villa in hills.",
     "ratings": 4.8,
@@ -74,9 +112,16 @@
     "type": "hotel",
     "adderess": "KK Nagar, Madurai",
     "distance": 4,
-    "category": ["budget", "solo"],
-    "images": ["https://example.com/h6.jpg"],
-    "rooms": ["Standard Room"],
+    "category": [
+      "budget",
+      "solo"
+    ],
+    "images": [
+      "https://example.com/h6.jpg"
+    ],
+    "rooms": [
+      "Standard Room"
+    ],
     "cheapestPrice": 2500,
     "description": "Comfortable budget stay.",
     "ratings": 4.0,
@@ -88,9 +133,17 @@
     "type": "resort",
     "adderess": "Mahabalipuram",
     "distance": 12,
-    "category": ["beach", "luxury"],
-    "images": ["https://example.com/h7.jpg"],
-    "rooms": ["Garden Room", "Pool Villa"],
+    "category": [
+      "beach",
+      "luxury"
+    ],
+    "images": [
+      "https://example.com/h7.jpg"
+    ],
+    "rooms": [
+      "Garden Room",
+      "Pool Villa"
+    ],
     "cheapestPrice": 9000,
     "description": "Luxury beach resort.",
     "ratings": 4.9,
@@ -102,9 +155,17 @@
     "type": "hotel",
     "adderess": "Coimbatore Main Road",
     "distance": 3,
-    "category": ["business", "budget"],
-    "images": ["https://example.com/h8.jpg"],
-    "rooms": ["Single Room", "Double Room"],
+    "category": [
+      "business",
+      "budget"
+    ],
+    "images": [
+      "https://example.com/h8.jpg"
+    ],
+    "rooms": [
+      "Single Room",
+      "Double Room"
+    ],
     "cheapestPrice": 3500,
     "description": "Modern city hotel.",
     "ratings": 4.2,
@@ -116,9 +177,16 @@
     "type": "villa",
     "adderess": "Pondicherry Beach Road",
     "distance": 6,
-    "category": ["couple", "luxury"],
-    "images": ["https://example.com/h9.jpg"],
-    "rooms": ["Private Suite"],
+    "category": [
+      "couple",
+      "luxury"
+    ],
+    "images": [
+      "https://example.com/h9.jpg"
+    ],
+    "rooms": [
+      "Private Suite"
+    ],
     "cheapestPrice": 10000,
     "description": "Romantic beach villa.",
     "ratings": 4.8,
@@ -130,9 +198,16 @@
     "type": "hotel",
     "adderess": "T Nagar, Chennai",
     "distance": 1,
-    "category": ["family", "business"],
-    "images": ["https://example.com/h10.jpg"],
-    "rooms": ["Luxury Room"],
+    "category": [
+      "family",
+      "business"
+    ],
+    "images": [
+      "https://example.com/h10.jpg"
+    ],
+    "rooms": [
+      "Luxury Room"
+    ],
     "cheapestPrice": 5500,
     "description": "Premium city hotel.",
     "ratings": 4.4,
@@ -144,9 +219,16 @@
     "type": "resort",
     "adderess": "Kodaikanal Lake",
     "distance": 9,
-    "category": ["nature", "family"],
-    "images": ["https://example.com/h11.jpg"],
-    "rooms": ["Lake Cottage"],
+    "category": [
+      "nature",
+      "family"
+    ],
+    "images": [
+      "https://example.com/h11.jpg"
+    ],
+    "rooms": [
+      "Lake Cottage"
+    ],
     "cheapestPrice": 7500,
     "description": "Beautiful lake resort.",
     "ratings": 4.7,
@@ -158,9 +240,16 @@
     "type": "apartment",
     "adderess": "Whitefield, Bangalore",
     "distance": 5,
-    "category": ["business", "solo"],
-    "images": ["https://example.com/h12.jpg"],
-    "rooms": ["Studio Apartment"],
+    "category": [
+      "business",
+      "solo"
+    ],
+    "images": [
+      "https://example.com/h12.jpg"
+    ],
+    "rooms": [
+      "Studio Apartment"
+    ],
     "cheapestPrice": 4000,
     "description": "Stylish serviced apartment.",
     "ratings": 4.3,
@@ -172,9 +261,16 @@
     "type": "hotel",
     "adderess": "RS Puram, Coimbatore",
     "distance": 2,
-    "category": ["luxury", "business"],
-    "images": ["https://example.com/h13.jpg"],
-    "rooms": ["Executive Suite"],
+    "category": [
+      "luxury",
+      "business"
+    ],
+    "images": [
+      "https://example.com/h13.jpg"
+    ],
+    "rooms": [
+      "Executive Suite"
+    ],
     "cheapestPrice": 6200,
     "description": "Luxury business hotel.",
     "ratings": 4.5,
@@ -186,9 +282,16 @@
     "type": "villa",
     "adderess": "Yercaud Hills",
     "distance": 15,
-    "category": ["nature", "couple"],
-    "images": ["https://example.com/h14.jpg"],
-    "rooms": ["Forest Villa"],
+    "category": [
+      "nature",
+      "couple"
+    ],
+    "images": [
+      "https://example.com/h14.jpg"
+    ],
+    "rooms": [
+      "Forest Villa"
+    ],
     "cheapestPrice": 8500,
     "description": "Private villa inside forest.",
     "ratings": 4.9,
@@ -200,9 +303,16 @@
     "type": "hotel",
     "adderess": "Central Station Road, Chennai",
     "distance": 2,
-    "category": ["budget", "solo"],
-    "images": ["https://example.com/h15.jpg"],
-    "rooms": ["Standard AC Room"],
+    "category": [
+      "budget",
+      "solo"
+    ],
+    "images": [
+      "https://example.com/h15.jpg"
+    ],
+    "rooms": [
+      "Standard AC Room"
+    ],
     "cheapestPrice": 2200,
     "description": "Budget friendly lodge.",
     "ratings": 3.9,
@@ -214,9 +324,16 @@
     "type": "resort",
     "adderess": "Goa Beach",
     "distance": 11,
-    "category": ["beach", "party"],
-    "images": ["https://example.com/h16.jpg"],
-    "rooms": ["Beach Suite"],
+    "category": [
+      "beach",
+      "party"
+    ],
+    "images": [
+      "https://example.com/h16.jpg"
+    ],
+    "rooms": [
+      "Beach Suite"
+    ],
     "cheapestPrice": 9500,
     "description": "Party resort near beach.",
     "ratings": 4.8,
@@ -228,9 +345,16 @@
     "type": "hotel",
     "adderess": "Mysore Palace Road",
     "distance": 4,
-    "category": ["family", "tourist"],
-    "images": ["https://example.com/h17.jpg"],
-    "rooms": ["Family Room"],
+    "category": [
+      "family",
+      "tourist"
+    ],
+    "images": [
+      "https://example.com/h17.jpg"
+    ],
+    "rooms": [
+      "Family Room"
+    ],
     "cheapestPrice": 4800,
     "description": "Comfortable tourist hotel.",
     "ratings": 4.2,
@@ -242,9 +366,16 @@
     "type": "apartment",
     "adderess": "Anna Nagar, Chennai",
     "distance": 3,
-    "category": ["family", "business"],
-    "images": ["https://example.com/h18.jpg"],
-    "rooms": ["3BHK Apartment"],
+    "category": [
+      "family",
+      "business"
+    ],
+    "images": [
+      "https://example.com/h18.jpg"
+    ],
+    "rooms": [
+      "3BHK Apartment"
+    ],
     "cheapestPrice": 6000,
     "description": "Premium apartment stay.",
     "ratings": 4.4,
@@ -256,9 +387,16 @@
     "type": "resort",
     "adderess": "Munnar Hills",
     "distance": 20,
-    "category": ["nature", "luxury"],
-    "images": ["https://example.com/h19.jpg"],
-    "rooms": ["Mountain View Room"],
+    "category": [
+      "nature",
+      "luxury"
+    ],
+    "images": [
+      "https://example.com/h19.jpg"
+    ],
+    "rooms": [
+      "Mountain View Room"
+    ],
     "cheapestPrice": 11000,
     "description": "Luxury hill resort.",
     "ratings": 5,
@@ -270,9 +408,16 @@
     "type": "hotel",
     "adderess": "Trichy Main Road",
     "distance": 2,
-    "category": ["budget", "family"],
-    "images": ["https://example.com/h20.jpg"],
-    "rooms": ["Double Room"],
+    "category": [
+      "budget",
+      "family"
+    ],
+    "images": [
+      "https://example.com/h20.jpg"
+    ],
+    "rooms": [
+      "Double Room"
+    ],
     "cheapestPrice": 3200,
     "description": "Affordable and clean stay.",
     "ratings": 4.1,
