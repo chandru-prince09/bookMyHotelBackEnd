@@ -12,13 +12,30 @@ exports.getAllHotels = async (req, res) => {
         })
         const filteredQuery = getFilteredFinalQuery(queryObj);
         console.log(filteredQuery)
-        const hotels = await Hotel.find(filteredQuery);
+        let query = Hotel.find(filteredQuery);
+
+        //Sorting
+        if (req.query.sort) {
+            const sortBy = req.query.sort.split(',').join(' ')
+            query = query.sort(sortBy)
+        } else {
+            query = query.sort('-cheapestPrice')
+        }
+
+
+        //projecting
+        if (req.query.fields) {
+            const fields = req.query.fields.split(',').join(' ')
+            query = query.select(fields)
+        } else {
+            query = query.select("-__v")
+        }   
+
+        const hotels = await query;
         res.status(200).json({
             status: 'success',
             count: hotels.length,
-            data: [
-                hotels
-            ]
+            data: hotels
         })
     } catch (error) {
         res.status(500).json({
@@ -92,26 +109,28 @@ const getFilteredFinalQuery = (queryObj) => {
     // { city: 'Chennai', ratings: { $gte: 4 }, cheapestPrice: { $lt: 3000 } }  Wants to convert like this 
 
     for (const key in queryObj) {
-        const value = queryObj[key];
+        let value = queryObj[key];
+        
+        // Convert numeric string to actual number if applicable
+        if (typeof value === 'string' && !isNaN(value) && value.trim() !== '') {
+            value = Number(value);
+        }
+
         const match = key.match(/^(.*)\[(gte|gt|lte|lt)\]$/);
         console.log(match)
         if (match) {
-            const fieldName = match[1] //ratings
-            const operator = `$${match[2]}` //$gte
-            if (!filterQuery[fieldName]) {
+            const fieldName = match[1]; // ratings
+            const operator = `$${match[2]}`; // $gte
+            if (!filterQuery[fieldName] || typeof filterQuery[fieldName] !== 'object') {
                 filterQuery[fieldName] = {};
-                filterQuery[fieldName][operator] = value
             }
+            filterQuery[fieldName][operator] = value;
         } else {
-            filterQuery[key] = value
+            filterQuery[key] = value;
         }
-
-
-
     }
 
+    console.log(filterQuery);
 
-    console.log(filterQuery)
-
-    return filterQuery
+    return filterQuery;
 }

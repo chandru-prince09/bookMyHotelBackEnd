@@ -14,5 +14,5 @@ mongoose.connect(connectionString)
         console.log("error connecting to database");
     })
 app.listen(port, "localhost", () => {
-    console.log("server started");
+    console.log("server started at", port);
 });

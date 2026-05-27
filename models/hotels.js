@@ -15,8 +15,14 @@ const hotelSchema = new mongoose.Schema({
     adderess: {
         type: String
     },
+    address: {
+        type: String
+    },
     distance: {
         type: Number
+    },
+    feature: {
+        type: Boolean
     },
     category: {
         type: [String]
