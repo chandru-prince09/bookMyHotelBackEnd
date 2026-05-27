@@ -31,6 +31,27 @@ exports.getAllHotels = async (req, res) => {
             query = query.select("-__v")
         }   
 
+        //implement pagination
+        const page = req.query.page || 1;
+        const limit = req.query.limit || 10;
+        //page 1 = skip = 0 limit = 10   
+        //page 2 = skip = 10 limit = 10
+        //page 3 = skip = 20 limit = 10
+        const skip = (page - 1) * limit;    
+        query = query.skip(skip).limit(limit);
+
+        if(req.query.page){
+            const totalHotels = await Hotel.countDocuments();
+            if(skip >=totalHotels){
+                throw new Error("page not found")
+            }
+            
+        }
+
+
+        
+
+
         const hotels = await query;
         res.status(200).json({
             status: 'success',
