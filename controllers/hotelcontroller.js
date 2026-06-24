@@ -2,7 +2,7 @@ const Hotel = require("../models/hotels");
 
 exports.getAllHotels = async (req, res) => {
     try {
-        console.log(req.query)
+        console.log(req.query);
 
         const queryObj = { ...req.query }
         const excludedFields = ['sort', 'page', 'limit', 'fields']
@@ -13,7 +13,7 @@ exports.getAllHotels = async (req, res) => {
         const filteredQuery = getFilteredFinalQuery(queryObj);
         console.log(filteredQuery)
         let query = Hotel.find(filteredQuery);
-
+       
         //Sorting
         if (req.query.sort) {
             const sortBy = req.query.sort.split(',').join(' ')
@@ -21,17 +21,96 @@ exports.getAllHotels = async (req, res) => {
         } else {
             query = query.sort('-cheapestPrice')
         }
+        //  
+        // if(req.query.sort){
+            // const sortBy = req.query.sort.split(',').join(' ')
+            // query = query.sort(sortBy)  
+        // }else{
+            // query = query.sort('-cheapestPrice')
+        // }
+
+        // if(req.query.sort){
+            // const sortBy = req.query.sort.split(',').join(' ')
+            // query = query.sort(sortBy)
+        // }else{
+            // query = query.sort('-cheapestPrice')
+        // }
+        // if(req.query.sort){
+            // const sortBy = req.query.sort.split(',').join(' ')
+            // query = query.sort(sortBy)
+        // }
+        // if(req.query.sort){
+            // const sortBy = req.query.sort.split(',').join(' ')
+            // query = query.sort(sortBy)
+        // }else{
+            // query = query.sort("-cheapestPrice")
+       // }
+    //    if(req.query.sort){
+        // const sortBy = req.query.sort.split(',').join(' ')
+        // query = query.sort(sortBy)
+    //    }else{
+        // query = query.sort("-cheapestPrice")
+      // }
+    //   if(req.query.sort){
+        // const sortBy = req.query.sort.split(',').join(' ')
+        // query = query.sort(sortBy)
+    //   }else{
+        // query = query.sort("-cheapestPrice")
+    //   }
+
+    // if(req.query.sort){
+        // const sortBy = req.query.sort.split(',').join('  ')
+        // query = query.sort(sortBy)
+    // }else{
+        // query = query.sort(' ')
+    // }
+
+        
 
 
-        //projecting
+        //projecting fields
         if (req.query.fields) {
             const fields = req.query.fields.split(',').join(' ')
             query = query.select(fields)
         } else {
             query = query.select("-__v")
-        }   
+        }
 
-        //implement pagination
+        // if(req.query.fields){
+            // const fields = req.query.fields.splits(',').join(' ')
+            // query = query.select(fields)
+
+        // }else{
+            // query = query.select("-__v")
+        // }
+        // if(req.query .fields){
+            // const fields = req.query.fields.split(',').join(' ')
+            // query = query.select(fields)
+        // }else{
+            // query = query.select("-___v")
+        //}
+        // if(req.query.fields){
+            // const fields = req.query.fields.split(',').join(' ')
+            // query = query.select(fields)
+        // }else{
+            // query = query.select("-___v")
+        // }
+        // if(req.query.fields){
+            // const fields = req.query.fields.split(',').join(' ')
+            // query = query.select(fields)
+        // }else{
+            // query = query.select("-___v")
+        // }
+        // if(req.query.fields){
+            // const fields = req.query.fields.split(',').join(' ')
+            // query = query.select(fields)
+        // }else{
+            // query = query.select("-___v")
+        // }
+
+
+
+        //implement pagenation
         const page = req.query.page || 1;
         const limit = req.query.limit || 10;
         //page 1 = skip = 0 limit = 10   
@@ -62,9 +141,9 @@ exports.getAllHotels = async (req, res) => {
         res.status(500).json({
             status: 'Fail',
             message: 'Failed to load the data'
-        })
+        });
     }
-}
+};
 exports.createHotel = async (req, res) => {
     try {
         const newHotel = await Hotel.create(req.body);
