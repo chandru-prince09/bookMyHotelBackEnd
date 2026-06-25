@@ -109,4 +109,39 @@ exports.deleteHotel = async (req, res) => {
     }
 }
 
+exports.getHotelStats = async (req, res) => {
+    try {
+        const hotelstats = await Hotel.aggregate([
+            { $match: { type: "hotel" } },
+            {
+                $group: {
+                    _id: "$city",
+                    avgRating: { $avg: "$ratings" },
+                    minPrice: { $min: "$cheapestPrice" },
+                    maxPrice: { $max: "$cheapestPrice" },
+                    totalHotels: { $sum: "$cheapestPrice" }
+                }
+            },
+            { $sort: { minPrice: -1 } },
+            { $limit: 3 },
 
+
+
+            { $addFields: { city: "$_id" } },
+            { $project: {_id: 0,}},
+
+
+        ]);
+
+        res.status(200).json({
+            status: "success",
+            count: hotelstats.length,
+            data: hotelstats
+        });
+    } catch (error) {
+        res.status(400).json({
+            status: "fail",
+            message: error.message
+        });
+    }
+}

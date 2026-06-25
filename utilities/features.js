@@ -41,8 +41,8 @@ class apifeatures {     // to create a object
 
     //pagination
     pagination() {
-        const page = this.queryParam.page * 1 || 1;
-        const limit = this.queryParam.limit * 1 || 10;
+        const page = this.queryParam.page || 1;
+        const limit = this.queryParam.limit || 20;
         const skip = (page - 1) * limit;
         this.queryObj = this.queryObj.skip(skip).limit(limit);
 
