@@ -3,9 +3,6 @@ const hotelControl = require('../controllers/hotelcontroller');
 const hotelrouter = express.Router();
 
 
-// alias with hyphen to match requests like '/get-featured' from Postman
-
-// Special routes BEFORE /:id parameter route
 hotelrouter.route("/get-featured")
     .get(hotelControl.getFeaturedHotels)
 
@@ -15,7 +12,6 @@ hotelrouter.route("/get-stats")
 hotelrouter.route("/getHotelByCategory")
     .get(hotelControl.getHotelByCategory)
 
-// routes expecting path params
 hotelrouter.route("/getHotelByCity/:city")
     .get(hotelControl.getHotelsByCity)
 

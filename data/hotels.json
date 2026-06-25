@@ -1,924 +1,2024 @@
 [
-    {
-        "name": "Ocean Paradise Resort",
-        "type": "resort",
-        "city": "Chennai",
-        "ratings": 4.5,
-        "address": "123 East Coast Road, Chennai, Tamil Nadu",
-        "distance": 2.8,
-        "category": [
-            "Free WiFi",
-            "Swimming Pool",
-            "Restaurant",
-            "Parking"
-        ],
-        "images": [
-            "hotel1.jpg",
-            "hotel2.jpg"
-        ],
-        "rooms": [
-            "Deluxe Room",
-            "Executive Suite"
-        ],
-        "cheapestPrice": 3500,
-        "feature": true,
-        "description": "Luxury beachside resort with ocean views."
-    },
-    {
-        "name": "Green Valley Villa",
-        "type": "villa",
-        "city": "Ooty",
-        "ratings": 4.8,
-        "address": "45 Mountain View Road, Ooty",
-        "distance": 1.2,
-        "category": [
-            "Mountain View",
-            "Free Breakfast",
-            "Garden"
-        ],
-        "images": [
-            "villa1.jpg",
-            "villa2.jpg"
-        ],
-        "rooms": [
-            "Standard Room",
-            "Luxury Suite"
-        ],
-        "cheapestPrice": 4500,
-        "feature": false,
-        "description": "Beautiful villa surrounded by nature."
-    },
-    {
-        "name": "Royal Grand Hotel",
-        "type": "hotel",
-        "city": "Bangalore",
-        "ratings": 4.3,
-        "address": "MG Road, Bangalore",
-        "distance": 0.5,
-        "category": [
-            "WiFi",
-            "Gym",
-            "Spa"
-        ],
-        "images": [
-            "royal1.jpg"
-        ],
-        "rooms": [
-            "Single",
-            "Double",
-            "Suite"
-        ],
-        "cheapestPrice": 2999,
-        "feature": true,
-        "description": "Premium hotel in the city center."
-    },
-    {
-        "name": "Hilltop Cabin Retreat",
-        "type": "cabin",
-        "city": "Kodaikanal",
-        "ratings": 4.6,
-        "address": "Hilltop Road, Kodaikanal",
-        "distance": 3.4,
-        "category": [
-            "Nature",
-            "Bonfire",
-            "Parking"
-        ],
-        "images": [
-            "cabin1.jpg"
-        ],
-        "rooms": [
-            "Wooden Cabin"
-        ],
-        "cheapestPrice": 2800,
-        "feature": false,
-        "description": "Peaceful cabin retreat amidst hills."
-    },
-    {
-        "name": "Sunrise Residency",
-        "type": "apartment",
-        "city": "Coimbatore",
-        "ratings": 4.1,
-        "address": "Avinashi Road, Coimbatore",
-        "distance": 1.1,
-        "category": [
-            "Kitchen",
-            "WiFi",
-            "Parking"
-        ],
-        "images": [
-            "apt1.jpg"
-        ],
-        "rooms": [
-            "1 BHK",
-            "2 BHK"
-        ],
-        "cheapestPrice": 2200,
-        "feature": false,
-        "description": "Comfortable serviced apartments."
-    },
-    {
-        "name": "Blue Lagoon Resort",
-        "type": "resort",
-        "city": "Pondicherry",
-        "ratings": 4.7,
-        "address": "Beach Road, Pondicherry",
-        "distance": 0.8,
-        "category": [
-            "Pool",
-            "Beach Access",
-            "Bar"
-        ],
-        "images": [
-            "lagoon1.jpg"
-        ],
-        "rooms": [
-            "Sea View Room"
-        ],
-        "cheapestPrice": 5000,
-        "feature": true,
-        "description": "Resort with private beach access."
-    },
-    {
-        "name": "Palm Tree Villa",
-        "type": "villa",
-        "city": "Goa",
-        "ratings": 4.9,
-        "address": "Calangute Beach, Goa",
-        "distance": 0.6,
-        "category": [
-            "Private Pool",
-            "Garden",
-            "WiFi"
-        ],
-        "images": [
-            "palm1.jpg"
-        ],
-        "rooms": [
-            "Villa Suite"
-        ],
-        "cheapestPrice": 7500,
-        "feature": true,
-        "description": "Exclusive luxury villa near the beach."
-    },
-    {
-        "name": "Metro Stay Hotel",
-        "type": "hotel",
-        "city": "Hyderabad",
-        "ratings": 4.0,
-        "address": "Banjara Hills, Hyderabad",
-        "distance": 1.5,
-        "category": [
-            "Business Center",
-            "WiFi"
-        ],
-        "images": [
-            "metro1.jpg"
-        ],
-        "rooms": [
-            "Standard",
-            "Deluxe"
-        ],
-        "cheapestPrice": 2600,
-        "feature": false,
-        "description": "Affordable business hotel."
-    },
-    {
-        "name": "Forest Edge Cabin",
-        "type": "cabin",
-        "city": "Wayanad",
-        "ratings": 4.4,
-        "address": "Forest Road, Wayanad",
-        "distance": 4.0,
-        "category": [
-            "Trekking",
-            "Bonfire"
-        ],
-        "images": [
-            "forest1.jpg"
-        ],
-        "rooms": [
-            "Cabin Room"
-        ],
-        "cheapestPrice": 3200,
-        "feature": false,
-        "description": "Rustic cabin close to nature."
-    },
-    {
-        "name": "Urban Nest Apartment",
-        "type": "apartment",
-        "city": "Chennai",
-        "ratings": 4.2,
-        "address": "OMR, Chennai",
-        "distance": 2.0,
-        "category": [
-            "Kitchen",
-            "Parking"
-        ],
-        "images": [
-            "urban1.jpg"
-        ],
-        "rooms": [
-            "Studio",
-            "1 BHK"
-        ],
-        "cheapestPrice": 1800,
-        "feature": false,
-        "description": "Modern apartment for short stays."
-    },
-    {
-        "name": "Golden Sands Resort",
-        "type": "resort",
-        "city": "Mahabalipuram",
-        "ratings": 4.8,
-        "address": "Shore Temple Road",
-        "distance": 1.3,
-        "category": [
-            "Beach",
-            "Pool",
-            "Restaurant"
-        ],
-        "images": [
-            "golden1.jpg"
-        ],
-        "rooms": [
-            "Luxury Suite"
-        ],
-        "cheapestPrice": 6000,
-        "feature": true,
-        "description": "Luxury resort with sea-facing rooms."
-    },
-    {
-        "name": "Lake View Villa",
-        "type": "villa",
-        "city": "Munnar",
-        "ratings": 4.7,
-        "address": "Tea Estate Road, Munnar",
-        "distance": 2.5,
-        "category": [
-            "Lake View",
-            "Garden"
-        ],
-        "images": [
-            "lakevilla.jpg"
-        ],
-        "rooms": [
-            "Premium Villa"
-        ],
-        "cheapestPrice": 5500,
-        "feature": true,
-        "description": "Villa overlooking a scenic lake."
-    },
-    {
-        "name": "City Lights Hotel",
-        "type": "hotel",
-        "city": "Mumbai",
-        "ratings": 4.1,
-        "address": "Andheri East, Mumbai",
-        "distance": 0.9,
-        "category": [
-            "WiFi",
-            "Gym"
-        ],
-        "images": [
-            "citylights.jpg"
-        ],
-        "rooms": [
-            "Executive Room"
-        ],
-        "cheapestPrice": 4000,
-        "feature": false,
-        "description": "Comfortable hotel near airport."
-    },
-    {
-        "name": "Pine Woods Cabin",
-        "type": "cabin",
-        "city": "Shimla",
-        "ratings": 4.5,
-        "address": "Pine Road, Shimla",
-        "distance": 3.1,
-        "category": [
-            "Mountain View",
-            "Fireplace"
-        ],
-        "images": [
-            "pine1.jpg"
-        ],
-        "rooms": [
-            "Family Cabin"
-        ],
-        "cheapestPrice": 3500,
-        "feature": false,
-        "description": "Cozy cabin with mountain views."
-    },
-    {
-        "name": "Comfort Apartments",
-        "type": "apartment",
-        "city": "Pune",
-        "ratings": 4.0,
-        "address": "Hinjewadi, Pune",
-        "distance": 1.8,
-        "category": [
-            "Kitchen",
-            "WiFi"
-        ],
-        "images": [
-            "comfort1.jpg"
-        ],
-        "rooms": [
-            "2 BHK"
-        ],
-        "cheapestPrice": 2400,
-        "feature": false,
-        "description": "Ideal apartment for families."
-    },
-    {
-        "name": "Coral Bay Resort",
-        "type": "resort",
-        "city": "Kanyakumari",
-        "ratings": 4.6,
-        "address": "Beach Front Road",
-        "distance": 0.7,
-        "category": [
-            "Pool",
-            "Restaurant"
-        ],
-        "images": [
-            "coral1.jpg"
-        ],
-        "rooms": [
-            "Ocean Room"
-        ],
-        "cheapestPrice": 4800,
-        "feature": true,
-        "description": "Elegant resort with beach access."
-    },
-    {
-        "name": "Heritage Villa",
-        "type": "villa",
-        "city": "Jaipur",
-        "ratings": 4.8,
-        "address": "Amer Road, Jaipur",
-        "distance": 2.3,
-        "category": [
-            "Heritage",
-            "Garden"
-        ],
-        "images": [
-            "heritage1.jpg"
-        ],
-        "rooms": [
-            "Royal Suite"
-        ],
-        "cheapestPrice": 7000,
-        "feature": true,
-        "description": "Traditional villa with royal interiors."
-    },
-    {
-        "name": "Business Inn Hotel",
-        "type": "hotel",
-        "city": "Delhi",
-        "ratings": 4.2,
-        "address": "Connaught Place, Delhi",
-        "distance": 1.0,
-        "category": [
-            "Conference Hall",
-            "WiFi"
-        ],
-        "images": [
-            "business1.jpg"
-        ],
-        "rooms": [
-            "Business Room"
-        ],
-        "cheapestPrice": 3800,
-        "feature": false,
-        "description": "Perfect for business travelers."
-    },
-    {
-        "name": "Wild Trail Cabin",
-        "type": "cabin",
-        "city": "Bandipur",
-        "ratings": 4.7,
-        "address": "Forest Reserve Area",
-        "distance": 5.2,
-        "category": [
-            "Safari",
-            "Nature"
-        ],
-        "images": [
-            "wild1.jpg"
-        ],
-        "rooms": [
-            "Safari Cabin"
-        ],
-        "cheapestPrice": 4200,
-        "feature": true,
-        "description": "Adventure stay near wildlife sanctuary."
-    },
-    {
-        "name": "Skyline Apartment",
-        "type": "apartment",
-        "city": "Kochi",
-        "ratings": 4.3,
-        "address": "Marine Drive, Kochi",
-        "distance": 1.4,
-        "category": [
-            "Sea View",
-            "WiFi"
-        ],
-        "images": [
-            "skyline1.jpg"
-        ],
-        "rooms": [
-            "Studio Apartment"
-        ],
-        "cheapestPrice": 2700,
-        "feature": false,
-        "description": "Modern apartment with skyline views."
-    },
-    {
-        "name": "The Grand Palace Hotel",
-        "type": "hotel",
-        "city": "Udaipur",
-        "ratings": 4.9,
-        "address": "Lake Pichola Road",
-        "distance": 0.5,
-        "category": [
-            "Heritage",
-            "Spa",
-            "Fine Dining"
-        ],
-        "images": [
-            "grandpalace1.jpg"
-        ],
-        "rooms": [
-            "Royal Lake View Suite"
-        ],
-        "cheapestPrice": 12500,
-        "feature": true,
-        "description": "A majestic heritage hotel overlooking the serene waters of Lake Pichola."
-    },
-    {
-        "name": "Misty Hills Plantation Resort",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.6,
-        "address": "Chithirapuram Power House Road",
-        "distance": 4.2,
-        "category": [
-            "Nature",
-            "Trekking",
-            "Cafe"
-        ],
-        "images": [
-            "mistyhills1.jpg"
-        ],
-        "rooms": [
-            "Premium Valley Villa"
-        ],
-        "cheapestPrice": 4500,
-        "feature": false,
-        "description": "Escape into nature with cozy villas nestled inside a lush tea plantation."
-    },
-    {
-        "name": "Urban Beats Residency",
-        "type": "hotel",
-        "city": "Bengaluru",
-        "ratings": 4.2,
-        "address": "MG Road, Shanthala Nagar",
-        "distance": 0.2,
-        "category": [
-            "Business",
-            "Gym",
-            "Bar"
-        ],
-        "images": [
-            "urbanbeats1.jpg"
-        ],
-        "rooms": [
-            "Executive Deluxe Room"
-        ],
-        "cheapestPrice": 3200,
-        "feature": false,
-        "description": "A modern business hotel located right in the heart of the city's commercial hub."
-    },
-    {
-        "name": "Coconut Groves Beach Stay",
-        "type": "resort",
-        "city": "Goa",
-        "ratings": 4.7,
-        "address": "Palolem Beach Road",
-        "distance": 0.1,
-        "category": [
-            "Beach",
-            "Water Sports",
-            "Barbecue"
-        ],
-        "images": [
-            "coconutgroves1.jpg"
-        ],
-        "rooms": [
-            "Beachfront Cottage"
-        ],
-        "cheapestPrice": 5500,
-        "feature": true,
-        "description": "Charming wooden cottages just steps away from the white sands of Palolem."
-    },
-    {
-        "name": "Snow Peak Alpine Lodge",
-        "type": "resort",
-        "city": "Manali",
-        "ratings": 4.5,
-        "address": "Hadimba Temple Road",
-        "distance": 1.8,
-        "category": [
-            "Mountain",
-            "Fireplace",
-            "Restaurant"
-        ],
-        "images": [
-            "snowpeak1.jpg"
-        ],
-        "rooms": [
-            "Luxury Wooden Attic"
-        ],
-        "cheapestPrice": 4800,
-        "feature": true,
-        "description": "Experience the warmth of traditional Himalayan hospitality with stunning snow-capped views."
-    },
-    {
-        "name": "Serenity Bay Villas",
-        "type": "villa",
-        "city": "Alleppey",
-        "ratings": 4.8,
-        "address": "Backwater Canal Road",
-        "distance": 0.3,
-        "category": [
-            "Backwater",
-            "Private Pool",
-            "Garden"
-        ],
-        "images": [
-            "serenitybay1.jpg"
-        ],
-        "rooms": [
-            "Private Villa Suite"
-        ],
-        "cheapestPrice": 7000,
-        "feature": true,
-        "description": "Luxurious villas with private pools overlooking the tranquil backwaters of Kerala."
-    },
-    {
-        "name": "The Lighthouse Inn",
-        "type": "hotel",
-        "city": "Pondicherry",
-        "ratings": 4.3,
-        "address": "Promenade Beach Road",
-        "distance": 0.4,
-        "category": [
-            "Beach View",
-            "Restaurant",
-            "WiFi"
-        ],
-        "images": [
-            "lighthouseinn1.jpg"
-        ],
-        "rooms": [
-            "Sea View Room"
-        ],
-        "cheapestPrice": 3500,
-        "feature": false,
-        "description": "A charming boutique hotel offering panoramic views of the Bay of Bengal."
-    },
-    {
-        "name": "Whispering Pines Cabin",
-        "type": "cabin",
-        "city": "Coorg",
-        "ratings": 4.6,
-        "address": "Coffee Estate Road",
-        "distance": 2.0,
-        "category": [
-            "Nature",
-            "Trekking",
-            "Bonfire"
-        ],
-        "images": [
-            "whisperingpines1.jpg"
-        ],
-        "rooms": [
-            "Forest View Cabin"
-        ],
-        "cheapestPrice": 4000,
-        "feature": false,
-        "description": "A serene cabin retreat surrounded by lush coffee plantations and pine forests."
-    },
-    {
-        "name": "Azure Horizon Apartments",
-        "type": "apartment",
-        "city": "Chennai",
-        "ratings": 4.1,
-        "address": "OMR, Sholinganallur",
-        "distance": 1.5,
-        "category": [
-            "Sea View",
-            "WiFi",
-            "Parking"
-        ],
-        "images": [
-            "azurehorizon1.jpg"
-        ],
-        "rooms": [
-            "2 BHK Apartment"
-        ],
-        "cheapestPrice": 2500,
-        "feature": false,
-        "description": "Modern serviced apartments with stunning views of the Bay of Bengal."
-    },
-    {
-        "name": "The Royal Heritage Hotel",
-        "type": "hotel",
-        "city": "Jaipur",
-        "ratings": 4.9,
-        "address": "Amer Fort Road",
-        "distance": 0.6,
-        "category": [
-            "Heritage",
-            "Spa",
-            "Fine Dining"
-        ],
-        "images": [
-            "royalheritage1.jpg"
-        ],
-        "rooms": [
-            "Royal Suite"
-        ],
-        "cheapestPrice": 12000,
-        "feature": true,
-        "description": "Experience the grandeur of Rajasthan with luxurious rooms and royal hospitality."
-    },
-    {
-        "name": "The Enchanted Forest Lodge",
-        "type": "resort",
-        "city": "Shillong",
-        "ratings": 4.7,
-        "address": "Pinewood Road, Shillong",
-        "distance": 3.5,
-        "category": [
-            "Nature",
-            "Trekking",
-            "Bonfire"
-        ],
-        "images": [
-            "enchantedforest1.jpg"
-        ],
-        "rooms": [
-            "Forest View Cottage"
-        ],
-        "cheapestPrice": 4800,
-        "feature": true,
-        "description": "A magical retreat nestled in the heart of the Khasi Hills, offering a serene escape into nature."
-    },
-    {
-        "name": "The Sapphire Bay Resort",
-        "type": "resort",
-        "city": "Andaman Islands",
-        "ratings": 4.8,
-        "address": "Havelock Island, Andaman",
-        "distance": 0.2,
-        "category": [
-            "Beachfront",
-            "Water Sports",
-            "Spa"
-        ],
-        "images": [
-            "sapphirebay1.jpg"
-        ],
-        "rooms": [
-            "Ocean View Villa"
-        ],
-        "cheapestPrice": 8000,
-        "feature": true,
-        "description": "A luxurious beachfront resort offering pristine beaches and world-class amenities."
-    },
-    {
-        "name": "The Himalayan Retreat",
-        "type": "resort",
-        "city": "Leh",
-        "ratings": 4.9,
-        "address": "Leh-Ladakh Highway, Leh",
-        "distance": 2.0,
-        "category": [
-            "Mountain View",
-            "Spa",
-            "Restaurant"
-        ],
-        "images": [
-            "himalayanretreat1.jpg"
-        ],
-        "rooms": [
-            "Luxury Mountain Suite"
-        ],
-        "cheapestPrice": 9500,
-        "feature": true,
-        "description": "A serene retreat in the Himalayas offering breathtaking views and luxurious accommodations."
-    },
-    {
-        "name": "Green Valley Resort",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.5,
-        "address": "Pallivasal Road",
-        "distance": 3.8,
-        "category": [
-            "Nature",
-            "Spa",
-            "Cafe"
-        ],
-        "images": [
-            "greenvalley1.jpg"
-        ],
-        "rooms": [
-            "Deluxe Garden Room"
-        ],
-        "cheapestPrice": 4200,
-        "feature": true,
-        "description": "A peaceful retreat surrounded by tea gardens and scenic hills."
-    },
-    {
-        "name": "Cloud Peak Resort",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.7,
-        "address": "Anachal Road",
-        "distance": 5.1,
-        "category": [
-            "Nature",
-            "Adventure",
-            "Mountain View"
-        ],
-        "images": [
-            "cloudpeak1.jpg"
-        ],
-        "rooms": [
-            "Luxury Suite"
-        ],
-        "cheapestPrice": 5500,
-        "feature": true,
-        "description": "Enjoy breathtaking mountain views and premium hospitality."
-    },
-    {
-        "name": "Tea Garden Retreat",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.4,
-        "address": "Devikulam Road",
-        "distance": 6.0,
-        "category": [
-            "Nature",
-            "Family",
-            "Cafe"
-        ],
-        "images": [
-            "teagarden1.jpg"
-        ],
-        "rooms": [
-            "Family Cottage"
-        ],
-        "cheapestPrice": 3900,
-        "feature": false,
-        "description": "Comfortable cottages nestled among lush tea plantations."
-    },
-    {
-        "name": "Silver Mist Resort",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.8,
-        "address": "Chinnakanal Road",
-        "distance": 7.5,
-        "category": [
-            "Luxury",
-            "Spa",
-            "Nature"
-        ],
-        "images": [
-            "silvermist1.jpg"
-        ],
-        "rooms": [
-            "Royal Villa"
-        ],
-        "cheapestPrice": 7200,
-        "feature": true,
-        "description": "Luxury villas with private balconies overlooking misty valleys."
-    },
-    {
-        "name": "Highland Breeze Resort",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.3,
-        "address": "Mattupetty Road",
-        "distance": 4.9,
-        "category": [
-            "Nature",
-            "Campfire",
-            "Cafe"
-        ],
-        "images": [
-            "highland1.jpg"
-        ],
-        "rooms": [
-            "Standard Room"
-        ],
-        "cheapestPrice": 3500,
-        "feature": false,
-        "description": "Budget-friendly stay with scenic hill views and campfires."
-    },
-    {
-        "name": "Valley Crown Resort",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.7,
-        "address": "Bison Valley Road",
-        "distance": 8.2,
-        "category": [
-            "Luxury",
-            "Nature",
-            "Adventure"
-        ],
-        "images": [
-            "valleycrown1.jpg"
-        ],
-        "rooms": [
-            "Executive Suite"
-        ],
-        "cheapestPrice": 6800,
-        "feature": true,
-        "description": "Elegant resort offering adventure activities and luxury rooms."
-    },
-    {
-        "name": "Forest Echo Resort",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.4,
-        "address": "Lakkam Road",
-        "distance": 9.1,
-        "category": [
-            "Forest",
-            "Nature",
-            "Wildlife"
-        ],
-        "images": [
-            "forestecho1.jpg"
-        ],
-        "rooms": [
-            "Wooden Cottage"
-        ],
-        "cheapestPrice": 4100,
-        "feature": false,
-        "description": "Experience nature up close with forest-side cottages."
-    },
-    {
-        "name": "Blue Horizon Resort",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.6,
-        "address": "Top Station Road",
-        "distance": 12.3,
-        "category": [
-            "Mountain View",
-            "Luxury",
-            "Nature"
-        ],
-        "images": [
-            "bluehorizon1.jpg"
-        ],
-        "rooms": [
-            "Panorama Suite"
-        ],
-        "cheapestPrice": 6300,
-        "feature": true,
-        "description": "Spectacular sunrise views from luxurious mountain-facing rooms."
-    },
-    {
-        "name": "Whispering Pines Resort",
-        "type": "resort",
-        "city": "Munnar",
-        "ratings": 4.5,
-        "address": "Lockhart Gap Road",
-        "distance": 10.5,
-        "category": [
-            "Nature",
-            "Family",
-            "Trekking"
-        ],
-        "images": [
-            "whisperingpines1.jpg"
-        ],
-        "rooms": [
-            "Premium Cottage"
-        ],
-        "cheapestPrice": 4700,
-        "feature": false,
-        "description": "Ideal getaway for families seeking tranquility and nature."
-    }
+  {
+    "name": "Ocean Paradise Resort",
+    "type": "resort",
+    "city": "Chennai",
+    "ratings": 4.5,
+    "address": "123 East Coast Road, Chennai, Tamil Nadu",
+    "distance": 2.8,
+    "category": [
+      "Free WiFi",
+      "Swimming Pool",
+      "Restaurant",
+      "Parking"
+    ],
+    "images": [
+      "hotel1.jpg",
+      "hotel2.jpg"
+    ],
+    "rooms": [
+      "Deluxe Room",
+      "Executive Suite"
+    ],
+    "cheapestPrice": 3500,
+    "feature": true,
+    "description": "Luxury beachside resort with ocean views."
+  },
+  {
+    "name": "Green Valley Villa",
+    "type": "villa",
+    "city": "Ooty",
+    "ratings": 4.8,
+    "address": "45 Mountain View Road, Ooty",
+    "distance": 1.2,
+    "category": [
+      "Mountain View",
+      "Free Breakfast",
+      "Garden"
+    ],
+    "images": [
+      "villa1.jpg",
+      "villa2.jpg"
+    ],
+    "rooms": [
+      "Standard Room",
+      "Luxury Suite"
+    ],
+    "cheapestPrice": 4500,
+    "feature": false,
+    "description": "Beautiful villa surrounded by nature."
+  },
+  {
+    "name": "Royal Grand Hotel",
+    "type": "hotel",
+    "city": "Bangalore",
+    "ratings": 4.3,
+    "address": "MG Road, Bangalore",
+    "distance": 0.5,
+    "category": [
+      "WiFi",
+      "Gym",
+      "Spa"
+    ],
+    "images": [
+      "royal1.jpg"
+    ],
+    "rooms": [
+      "Single",
+      "Double",
+      "Suite"
+    ],
+    "cheapestPrice": 2999,
+    "feature": true,
+    "description": "Premium hotel in the city center."
+  },
+  {
+    "name": "Hilltop Cabin Retreat",
+    "type": "cabin",
+    "city": "Kodaikanal",
+    "ratings": 4.6,
+    "address": "Hilltop Road, Kodaikanal",
+    "distance": 3.4,
+    "category": [
+      "Nature",
+      "Bonfire",
+      "Parking"
+    ],
+    "images": [
+      "cabin1.jpg"
+    ],
+    "rooms": [
+      "Wooden Cabin"
+    ],
+    "cheapestPrice": 2800,
+    "feature": false,
+    "description": "Peaceful cabin retreat amidst hills."
+  },
+  {
+    "name": "Sunrise Residency",
+    "type": "apartment",
+    "city": "Coimbatore",
+    "ratings": 4.1,
+    "address": "Avinashi Road, Coimbatore",
+    "distance": 1.1,
+    "category": [
+      "Kitchen",
+      "WiFi",
+      "Parking"
+    ],
+    "images": [
+      "apt1.jpg"
+    ],
+    "rooms": [
+      "1 BHK",
+      "2 BHK"
+    ],
+    "cheapestPrice": 2200,
+    "feature": false,
+    "description": "Comfortable serviced apartments."
+  },
+  {
+    "name": "Blue Lagoon Resort",
+    "type": "resort",
+    "city": "Pondicherry",
+    "ratings": 4.7,
+    "address": "Beach Road, Pondicherry",
+    "distance": 0.8,
+    "category": [
+      "Pool",
+      "Beach Access",
+      "Bar"
+    ],
+    "images": [
+      "lagoon1.jpg"
+    ],
+    "rooms": [
+      "Sea View Room"
+    ],
+    "cheapestPrice": 5000,
+    "feature": true,
+    "description": "Resort with private beach access."
+  },
+  {
+    "name": "Palm Tree Villa",
+    "type": "villa",
+    "city": "Goa",
+    "ratings": 4.9,
+    "address": "Calangute Beach, Goa",
+    "distance": 0.6,
+    "category": [
+      "Private Pool",
+      "Garden",
+      "WiFi"
+    ],
+    "images": [
+      "palm1.jpg"
+    ],
+    "rooms": [
+      "Villa Suite"
+    ],
+    "cheapestPrice": 7500,
+    "feature": true,
+    "description": "Exclusive luxury villa near the beach."
+  },
+  {
+    "name": "Metro Stay Hotel",
+    "type": "hotel",
+    "city": "Hyderabad",
+    "ratings": 4,
+    "address": "Banjara Hills, Hyderabad",
+    "distance": 1.5,
+    "category": [
+      "Business Center",
+      "WiFi"
+    ],
+    "images": [
+      "metro1.jpg"
+    ],
+    "rooms": [
+      "Standard",
+      "Deluxe"
+    ],
+    "cheapestPrice": 2600,
+    "feature": false,
+    "description": "Affordable business hotel."
+  },
+  {
+    "name": "Forest Edge Cabin",
+    "type": "cabin",
+    "city": "Wayanad",
+    "ratings": 4.4,
+    "address": "Forest Road, Wayanad",
+    "distance": 4,
+    "category": [
+      "Trekking",
+      "Bonfire"
+    ],
+    "images": [
+      "forest1.jpg"
+    ],
+    "rooms": [
+      "Cabin Room"
+    ],
+    "cheapestPrice": 3200,
+    "feature": false,
+    "description": "Rustic cabin close to nature."
+  },
+  {
+    "name": "Urban Nest Apartment",
+    "type": "apartment",
+    "city": "Chennai",
+    "ratings": 4.2,
+    "address": "OMR, Chennai",
+    "distance": 2,
+    "category": [
+      "Kitchen",
+      "Parking"
+    ],
+    "images": [
+      "urban1.jpg"
+    ],
+    "rooms": [
+      "Studio",
+      "1 BHK"
+    ],
+    "cheapestPrice": 1800,
+    "feature": false,
+    "description": "Modern apartment for short stays."
+  },
+  {
+    "name": "Golden Sands Resort",
+    "type": "resort",
+    "city": "Mahabalipuram",
+    "ratings": 4.8,
+    "address": "Shore Temple Road",
+    "distance": 1.3,
+    "category": [
+      "Beach",
+      "Pool",
+      "Restaurant"
+    ],
+    "images": [
+      "golden1.jpg"
+    ],
+    "rooms": [
+      "Luxury Suite"
+    ],
+    "cheapestPrice": 6000,
+    "feature": true,
+    "description": "Luxury resort with sea-facing rooms."
+  },
+  {
+    "name": "Lake View Villa",
+    "type": "villa",
+    "city": "Munnar",
+    "ratings": 4.7,
+    "address": "Tea Estate Road, Munnar",
+    "distance": 2.5,
+    "category": [
+      "Lake View",
+      "Garden"
+    ],
+    "images": [
+      "lakevilla.jpg"
+    ],
+    "rooms": [
+      "Premium Villa"
+    ],
+    "cheapestPrice": 5500,
+    "feature": true,
+    "description": "Villa overlooking a scenic lake."
+  },
+  {
+    "name": "City Lights Hotel",
+    "type": "hotel",
+    "city": "Mumbai",
+    "ratings": 4.1,
+    "address": "Andheri East, Mumbai",
+    "distance": 0.9,
+    "category": [
+      "WiFi",
+      "Gym"
+    ],
+    "images": [
+      "citylights.jpg"
+    ],
+    "rooms": [
+      "Executive Room"
+    ],
+    "cheapestPrice": 4000,
+    "feature": false,
+    "description": "Comfortable hotel near airport."
+  },
+  {
+    "name": "Pine Woods Cabin",
+    "type": "cabin",
+    "city": "Shimla",
+    "ratings": 4.5,
+    "address": "Pine Road, Shimla",
+    "distance": 3.1,
+    "category": [
+      "Mountain View",
+      "Fireplace"
+    ],
+    "images": [
+      "pine1.jpg"
+    ],
+    "rooms": [
+      "Family Cabin"
+    ],
+    "cheapestPrice": 3500,
+    "feature": false,
+    "description": "Cozy cabin with mountain views."
+  },
+  {
+    "name": "Comfort Apartments",
+    "type": "apartment",
+    "city": "Pune",
+    "ratings": 4,
+    "address": "Hinjewadi, Pune",
+    "distance": 1.8,
+    "category": [
+      "Kitchen",
+      "WiFi"
+    ],
+    "images": [
+      "comfort1.jpg"
+    ],
+    "rooms": [
+      "2 BHK"
+    ],
+    "cheapestPrice": 2400,
+    "feature": false,
+    "description": "Ideal apartment for families."
+  },
+  {
+    "name": "Coral Bay Resort",
+    "type": "resort",
+    "city": "Kanyakumari",
+    "ratings": 4.6,
+    "address": "Beach Front Road",
+    "distance": 0.7,
+    "category": [
+      "Pool",
+      "Restaurant"
+    ],
+    "images": [
+      "coral1.jpg"
+    ],
+    "rooms": [
+      "Ocean Room"
+    ],
+    "cheapestPrice": 4800,
+    "feature": true,
+    "description": "Elegant resort with beach access."
+  },
+  {
+    "name": "Heritage Villa",
+    "type": "villa",
+    "city": "Jaipur",
+    "ratings": 4.8,
+    "address": "Amer Road, Jaipur",
+    "distance": 2.3,
+    "category": [
+      "Heritage",
+      "Garden"
+    ],
+    "images": [
+      "heritage1.jpg"
+    ],
+    "rooms": [
+      "Royal Suite"
+    ],
+    "cheapestPrice": 7000,
+    "feature": true,
+    "description": "Traditional villa with royal interiors."
+  },
+  {
+    "name": "Business Inn Hotel",
+    "type": "hotel",
+    "city": "Delhi",
+    "ratings": 4.2,
+    "address": "Connaught Place, Delhi",
+    "distance": 1,
+    "category": [
+      "Conference Hall",
+      "WiFi"
+    ],
+    "images": [
+      "business1.jpg"
+    ],
+    "rooms": [
+      "Business Room"
+    ],
+    "cheapestPrice": 3800,
+    "feature": false,
+    "description": "Perfect for business travelers."
+  },
+  {
+    "name": "Wild Trail Cabin",
+    "type": "cabin",
+    "city": "Bandipur",
+    "ratings": 4.7,
+    "address": "Forest Reserve Area",
+    "distance": 5.2,
+    "category": [
+      "Safari",
+      "Nature"
+    ],
+    "images": [
+      "wild1.jpg"
+    ],
+    "rooms": [
+      "Safari Cabin"
+    ],
+    "cheapestPrice": 4200,
+    "feature": true,
+    "description": "Adventure stay near wildlife sanctuary."
+  },
+  {
+    "name": "Skyline Apartment",
+    "type": "apartment",
+    "city": "Kochi",
+    "ratings": 4.3,
+    "address": "Marine Drive, Kochi",
+    "distance": 1.4,
+    "category": [
+      "Sea View",
+      "WiFi"
+    ],
+    "images": [
+      "skyline1.jpg"
+    ],
+    "rooms": [
+      "Studio Apartment"
+    ],
+    "cheapestPrice": 2700,
+    "feature": false,
+    "description": "Modern apartment with skyline views."
+  },
+  {
+    "name": "The Grand Palace Hotel",
+    "type": "hotel",
+    "city": "Udaipur",
+    "ratings": 4.9,
+    "address": "Lake Pichola Road",
+    "distance": 0.5,
+    "category": [
+      "Heritage",
+      "Spa",
+      "Fine Dining"
+    ],
+    "images": [
+      "grandpalace1.jpg"
+    ],
+    "rooms": [
+      "Royal Lake View Suite"
+    ],
+    "cheapestPrice": 12500,
+    "feature": true,
+    "description": "A majestic heritage hotel overlooking the serene waters of Lake Pichola."
+  },
+  {
+    "name": "Misty Hills Plantation Resort",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.6,
+    "address": "Chithirapuram Power House Road",
+    "distance": 4.2,
+    "category": [
+      "Nature",
+      "Trekking",
+      "Cafe"
+    ],
+    "images": [
+      "mistyhills1.jpg"
+    ],
+    "rooms": [
+      "Premium Valley Villa"
+    ],
+    "cheapestPrice": 4500,
+    "feature": false,
+    "description": "Escape into nature with cozy villas nestled inside a lush tea plantation."
+  },
+  {
+    "name": "Urban Beats Residency",
+    "type": "hotel",
+    "city": "Bengaluru",
+    "ratings": 4.2,
+    "address": "MG Road, Shanthala Nagar",
+    "distance": 0.2,
+    "category": [
+      "Business",
+      "Gym",
+      "Bar"
+    ],
+    "images": [
+      "urbanbeats1.jpg"
+    ],
+    "rooms": [
+      "Executive Deluxe Room"
+    ],
+    "cheapestPrice": 3200,
+    "feature": false,
+    "description": "A modern business hotel located right in the heart of the city's commercial hub."
+  },
+  {
+    "name": "Coconut Groves Beach Stay",
+    "type": "resort",
+    "city": "Goa",
+    "ratings": 4.7,
+    "address": "Palolem Beach Road",
+    "distance": 0.1,
+    "category": [
+      "Beach",
+      "Water Sports",
+      "Barbecue"
+    ],
+    "images": [
+      "coconutgroves1.jpg"
+    ],
+    "rooms": [
+      "Beachfront Cottage"
+    ],
+    "cheapestPrice": 5500,
+    "feature": true,
+    "description": "Charming wooden cottages just steps away from the white sands of Palolem."
+  },
+  {
+    "name": "Snow Peak Alpine Lodge",
+    "type": "resort",
+    "city": "Manali",
+    "ratings": 4.5,
+    "address": "Hadimba Temple Road",
+    "distance": 1.8,
+    "category": [
+      "Mountain",
+      "Fireplace",
+      "Restaurant"
+    ],
+    "images": [
+      "snowpeak1.jpg"
+    ],
+    "rooms": [
+      "Luxury Wooden Attic"
+    ],
+    "cheapestPrice": 4800,
+    "feature": true,
+    "description": "Experience the warmth of traditional Himalayan hospitality with stunning snow-capped views."
+  },
+  {
+    "name": "Serenity Bay Villas",
+    "type": "villa",
+    "city": "Alleppey",
+    "ratings": 4.8,
+    "address": "Backwater Canal Road",
+    "distance": 0.3,
+    "category": [
+      "Backwater",
+      "Private Pool",
+      "Garden"
+    ],
+    "images": [
+      "serenitybay1.jpg"
+    ],
+    "rooms": [
+      "Private Villa Suite"
+    ],
+    "cheapestPrice": 7000,
+    "feature": true,
+    "description": "Luxurious villas with private pools overlooking the tranquil backwaters of Kerala."
+  },
+  {
+    "name": "The Lighthouse Inn",
+    "type": "hotel",
+    "city": "Pondicherry",
+    "ratings": 4.3,
+    "address": "Promenade Beach Road",
+    "distance": 0.4,
+    "category": [
+      "Beach View",
+      "Restaurant",
+      "WiFi"
+    ],
+    "images": [
+      "lighthouseinn1.jpg"
+    ],
+    "rooms": [
+      "Sea View Room"
+    ],
+    "cheapestPrice": 3500,
+    "feature": false,
+    "description": "A charming boutique hotel offering panoramic views of the Bay of Bengal."
+  },
+  {
+    "name": "Whispering Pines Cabin",
+    "type": "cabin",
+    "city": "Coorg",
+    "ratings": 4.6,
+    "address": "Coffee Estate Road",
+    "distance": 2,
+    "category": [
+      "Nature",
+      "Trekking",
+      "Bonfire"
+    ],
+    "images": [
+      "whisperingpines1.jpg"
+    ],
+    "rooms": [
+      "Forest View Cabin"
+    ],
+    "cheapestPrice": 4000,
+    "feature": false,
+    "description": "A serene cabin retreat surrounded by lush coffee plantations and pine forests."
+  },
+  {
+    "name": "Azure Horizon Apartments",
+    "type": "apartment",
+    "city": "Chennai",
+    "ratings": 4.1,
+    "address": "OMR, Sholinganallur",
+    "distance": 1.5,
+    "category": [
+      "Sea View",
+      "WiFi",
+      "Parking"
+    ],
+    "images": [
+      "azurehorizon1.jpg"
+    ],
+    "rooms": [
+      "2 BHK Apartment"
+    ],
+    "cheapestPrice": 2500,
+    "feature": false,
+    "description": "Modern serviced apartments with stunning views of the Bay of Bengal."
+  },
+  {
+    "name": "The Royal Heritage Hotel",
+    "type": "hotel",
+    "city": "Jaipur",
+    "ratings": 4.9,
+    "address": "Amer Fort Road",
+    "distance": 0.6,
+    "category": [
+      "Heritage",
+      "Spa",
+      "Fine Dining"
+    ],
+    "images": [
+      "royalheritage1.jpg"
+    ],
+    "rooms": [
+      "Royal Suite"
+    ],
+    "cheapestPrice": 12000,
+    "feature": true,
+    "description": "Experience the grandeur of Rajasthan with luxurious rooms and royal hospitality."
+  },
+  {
+    "name": "The Enchanted Forest Lodge",
+    "type": "resort",
+    "city": "Shillong",
+    "ratings": 4.7,
+    "address": "Pinewood Road, Shillong",
+    "distance": 3.5,
+    "category": [
+      "Nature",
+      "Trekking",
+      "Bonfire"
+    ],
+    "images": [
+      "enchantedforest1.jpg"
+    ],
+    "rooms": [
+      "Forest View Cottage"
+    ],
+    "cheapestPrice": 4800,
+    "feature": true,
+    "description": "A magical retreat nestled in the heart of the Khasi Hills, offering a serene escape into nature."
+  },
+  {
+    "name": "The Sapphire Bay Resort",
+    "type": "resort",
+    "city": "Andaman Islands",
+    "ratings": 4.8,
+    "address": "Havelock Island, Andaman",
+    "distance": 0.2,
+    "category": [
+      "Beachfront",
+      "Water Sports",
+      "Spa"
+    ],
+    "images": [
+      "sapphirebay1.jpg"
+    ],
+    "rooms": [
+      "Ocean View Villa"
+    ],
+    "cheapestPrice": 8000,
+    "feature": true,
+    "description": "A luxurious beachfront resort offering pristine beaches and world-class amenities."
+  },
+  {
+    "name": "The Himalayan Retreat",
+    "type": "resort",
+    "city": "Leh",
+    "ratings": 4.9,
+    "address": "Leh-Ladakh Highway, Leh",
+    "distance": 2,
+    "category": [
+      "Mountain View",
+      "Spa",
+      "Restaurant"
+    ],
+    "images": [
+      "himalayanretreat1.jpg"
+    ],
+    "rooms": [
+      "Luxury Mountain Suite"
+    ],
+    "cheapestPrice": 9500,
+    "feature": true,
+    "description": "A serene retreat in the Himalayas offering breathtaking views and luxurious accommodations."
+  },
+  {
+    "name": "Green Valley Resort",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.5,
+    "address": "Pallivasal Road",
+    "distance": 3.8,
+    "category": [
+      "Nature",
+      "Spa",
+      "Cafe"
+    ],
+    "images": [
+      "greenvalley1.jpg"
+    ],
+    "rooms": [
+      "Deluxe Garden Room"
+    ],
+    "cheapestPrice": 4200,
+    "feature": true,
+    "description": "A peaceful retreat surrounded by tea gardens and scenic hills."
+  },
+  {
+    "name": "Cloud Peak Resort",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.7,
+    "address": "Anachal Road",
+    "distance": 5.1,
+    "category": [
+      "Nature",
+      "Adventure",
+      "Mountain View"
+    ],
+    "images": [
+      "cloudpeak1.jpg"
+    ],
+    "rooms": [
+      "Luxury Suite"
+    ],
+    "cheapestPrice": 5500,
+    "feature": true,
+    "description": "Enjoy breathtaking mountain views and premium hospitality."
+  },
+  {
+    "name": "Tea Garden Retreat",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.4,
+    "address": "Devikulam Road",
+    "distance": 6,
+    "category": [
+      "Nature",
+      "Family",
+      "Cafe"
+    ],
+    "images": [
+      "teagarden1.jpg"
+    ],
+    "rooms": [
+      "Family Cottage"
+    ],
+    "cheapestPrice": 3900,
+    "feature": false,
+    "description": "Comfortable cottages nestled among lush tea plantations."
+  },
+  {
+    "name": "Silver Mist Resort",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.8,
+    "address": "Chinnakanal Road",
+    "distance": 7.5,
+    "category": [
+      "Luxury",
+      "Spa",
+      "Nature"
+    ],
+    "images": [
+      "silvermist1.jpg"
+    ],
+    "rooms": [
+      "Royal Villa"
+    ],
+    "cheapestPrice": 7200,
+    "feature": true,
+    "description": "Luxury villas with private balconies overlooking misty valleys."
+  },
+  {
+    "name": "Highland Breeze Resort",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.3,
+    "address": "Mattupetty Road",
+    "distance": 4.9,
+    "category": [
+      "Nature",
+      "Campfire",
+      "Cafe"
+    ],
+    "images": [
+      "highland1.jpg"
+    ],
+    "rooms": [
+      "Standard Room"
+    ],
+    "cheapestPrice": 3500,
+    "feature": false,
+    "description": "Budget-friendly stay with scenic hill views and campfires."
+  },
+  {
+    "name": "Valley Crown Resort",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.7,
+    "address": "Bison Valley Road",
+    "distance": 8.2,
+    "category": [
+      "Luxury",
+      "Nature",
+      "Adventure"
+    ],
+    "images": [
+      "valleycrown1.jpg"
+    ],
+    "rooms": [
+      "Executive Suite"
+    ],
+    "cheapestPrice": 6800,
+    "feature": true,
+    "description": "Elegant resort offering adventure activities and luxury rooms."
+  },
+  {
+    "name": "Forest Echo Resort",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.4,
+    "address": "Lakkam Road",
+    "distance": 9.1,
+    "category": [
+      "Forest",
+      "Nature",
+      "Wildlife"
+    ],
+    "images": [
+      "forestecho1.jpg"
+    ],
+    "rooms": [
+      "Wooden Cottage"
+    ],
+    "cheapestPrice": 4100,
+    "feature": false,
+    "description": "Experience nature up close with forest-side cottages."
+  },
+  {
+    "name": "Blue Horizon Resort",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.6,
+    "address": "Top Station Road",
+    "distance": 12.3,
+    "category": [
+      "Mountain View",
+      "Luxury",
+      "Nature"
+    ],
+    "images": [
+      "bluehorizon1.jpg"
+    ],
+    "rooms": [
+      "Panorama Suite"
+    ],
+    "cheapestPrice": 6300,
+    "feature": true,
+    "description": "Spectacular sunrise views from luxurious mountain-facing rooms."
+  },
+  {
+    "name": "Whispering Pines Resort",
+    "type": "resort",
+    "city": "Munnar",
+    "ratings": 4.5,
+    "address": "Lockhart Gap Road",
+    "distance": 10.5,
+    "category": [
+      "Nature",
+      "Family",
+      "Trekking"
+    ],
+    "images": [
+      "whisperingpines1.jpg"
+    ],
+    "rooms": [
+      "Premium Cottage"
+    ],
+    "cheapestPrice": 4700,
+    "feature": false,
+    "description": "Ideal getaway for families seeking tranquility and nature."
+  },
+  {
+    "name": "The Amber Heritage Keep",
+    "type": "hotel",
+    "city": "Amer",
+    "ratings": 4.7,
+    "address": "Fort View Path",
+    "distance": 0.3,
+    "category": [
+      "Heritage",
+      "Fort View",
+      "Traditional Cuisine"
+    ],
+    "images": [
+      "amberkeep1.jpg"
+    ],
+    "rooms": [
+      "Maharaja Suite"
+    ],
+    "cheapestPrice": 8500,
+    "feature": true,
+    "description": "A stunningly restored haveli at the base of the fortress walls."
+  },
+  {
+    "name": "Nirvana Eco Wellness",
+    "type": "resort",
+    "city": "Gokarna",
+    "ratings": 4.6,
+    "address": "Kudle Beach Road",
+    "distance": 0.4,
+    "category": [
+      "Beach",
+      "Yoga",
+      "Vegan Cooking"
+    ],
+    "images": [
+      "nirvanaeco1.jpg"
+    ],
+    "rooms": [
+      "Ocean-Facing Eco Shack"
+    ],
+    "cheapestPrice": 3900,
+    "feature": false,
+    "description": "A quiet cliffside wellness retreat dedicated to holistic healing."
+  },
+  {
+    "name": "The Obsidian Business Tower",
+    "type": "hotel",
+    "city": "Kochi",
+    "ratings": 4.3,
+    "address": "Kakkanad InfoPark",
+    "distance": 0.2,
+    "category": [
+      "Business",
+      "High-Speed Wifi",
+      "Lounge"
+    ],
+    "images": [
+      "obsidian1.jpg"
+    ],
+    "rooms": [
+      "Smart Tech Suite"
+    ],
+    "cheapestPrice": 4100,
+    "feature": true,
+    "description": "Streamlined, contemporary accommodations tailored for modern IT professionals."
+  },
+  {
+    "name": "Whispering Bamboos Lodge",
+    "type": "resort",
+    "city": "Coorg",
+    "ratings": 4.5,
+    "address": "Kutta Wildlife Border",
+    "distance": 5.1,
+    "category": [
+      "Nature",
+      "Trekking",
+      "Bonfire"
+    ],
+    "images": [
+      "bamboos1.jpg"
+    ],
+    "rooms": [
+      "Elevated Bamboo Cottage"
+    ],
+    "cheapestPrice": 4800,
+    "feature": false,
+    "description": "Rustic, sustainable cottages built inside a naturally dense bamboo grove."
+  },
+  {
+    "name": "The Crimson Manor",
+    "type": "hotel",
+    "city": "Shimla",
+    "ratings": 4.4,
+    "address": "Chhota Shimla",
+    "distance": 1.5,
+    "category": [
+      "Mountain",
+      "Colonial",
+      "Heated Pool"
+    ],
+    "images": [
+      "crimson1.jpg"
+    ],
+    "rooms": [
+      "Victorian Luxury Double"
+    ],
+    "cheapestPrice": 6700,
+    "feature": true,
+    "description": "An authentic piece of British-era architecture with views of the valley."
+  },
+  {
+    "name": "Coral Reef Sands",
+    "type": "resort",
+    "city": "Lakshadweep",
+    "ratings": 4.9,
+    "address": "Agatti Lagoon Side",
+    "distance": 0.1,
+    "category": [
+      "Beach",
+      "Scuba Diving",
+      "Seafood"
+    ],
+    "images": [
+      "coralreef1.jpg"
+    ],
+    "rooms": [
+      "Overwater Bungalow"
+    ],
+    "cheapestPrice": 16000,
+    "feature": true,
+    "description": "Exclusive paradise destination step-less from direct marine lagoon entry."
+  },
+  {
+    "name": "The Zenith Transit Inn",
+    "type": "hotel",
+    "city": "Mumbai",
+    "ratings": 4.1,
+    "address": "Sahar Airport Road",
+    "distance": 0.8,
+    "category": [
+      "Transit",
+      "Soundproof",
+      "24/7 Buffet"
+    ],
+    "images": [
+      "zenith1.jpg"
+    ],
+    "rooms": [
+      "Soundproof Pod Room"
+    ],
+    "cheapestPrice": 3200,
+    "feature": false,
+    "description": "Perfectly optimized capsule layouts for short international layovers."
+  },
+  {
+    "name": "Wild Orchid Sanctuary",
+    "type": "resort",
+    "city": "Kaziranga",
+    "ratings": 4.7,
+    "address": "Kohora Range Entry",
+    "distance": 1.1,
+    "category": [
+      "Wildlife",
+      "Safari",
+      "Traditional Dance"
+    ],
+    "images": [
+      "wildorchid1.jpg"
+    ],
+    "rooms": [
+      "Rhino-View Stilt Cabin"
+    ],
+    "cheapestPrice": 7200,
+    "feature": true,
+    "description": "Watch local flora and fauna directly from elevated private verandas."
+  },
+  {
+    "name": "The Marble Arch",
+    "type": "hotel",
+    "city": "Jabalpur",
+    "ratings": 4.3,
+    "address": "Bhedaghat River Walk",
+    "distance": 0.6,
+    "category": [
+      "River View",
+      "Boating",
+      "Restaurant"
+    ],
+    "images": [
+      "marblearch1.jpg"
+    ],
+    "rooms": [
+      "Narmada Vista Room"
+    ],
+    "cheapestPrice": 3500,
+    "feature": false,
+    "description": "Located a stone's throw from the roaring Dhuandhar Falls and canyon."
+  },
+  {
+    "name": "Solitude Pine Chalets",
+    "type": "resort",
+    "city": "Kasauli",
+    "ratings": 4.5,
+    "address": "Lower Mall Road",
+    "distance": 2.3,
+    "category": [
+      "Mountain",
+      "Bird Watching",
+      "Library"
+    ],
+    "images": [
+      "solitudepines1.jpg"
+    ],
+    "rooms": [
+      "Attic Glass Chalet"
+    ],
+    "cheapestPrice": 5400,
+    "feature": false,
+    "description": "Quiet retreat away from tourist corridors built for reading and crisp air."
+  },
+  {
+    "name": "The Ivory Crest",
+    "type": "hotel",
+    "city": "Chandigarh",
+    "ratings": 4.2,
+    "address": "Sector 17 Market",
+    "distance": 0.1,
+    "category": [
+      "City Center",
+      "Boutique",
+      "Gym"
+    ],
+    "images": [
+      "ivorycrest1.jpg"
+    ],
+    "rooms": [
+      "Minimalist Studio Room"
+    ],
+    "cheapestPrice": 4500,
+    "feature": true,
+    "description": "Contemporary architecture following Le Corbusier's clean geometric philosophy."
+  },
+  {
+    "name": "Elysian Backwater Cabins",
+    "type": "resort",
+    "city": "Kumarakom",
+    "ratings": 4.8,
+    "address": "Bird Sanctuary Path",
+    "distance": 1.2,
+    "category": [
+      "Backwaters",
+      "Fishing",
+      "Ayurveda Spa"
+    ],
+    "images": [
+      "elysianback1.jpg"
+    ],
+    "rooms": [
+      "Heritage Thanas Villa"
+    ],
+    "cheapestPrice": 9800,
+    "feature": true,
+    "description": "Restored Keralite structures positioned on canals weaving into Lake Vembanad."
+  },
+  {
+    "name": "The Urban Pulse Stay",
+    "type": "hotel",
+    "city": "Gurugram",
+    "ratings": 4,
+    "address": "Sohna Road",
+    "distance": 3.4,
+    "category": [
+      "Business",
+      "Long-Stay Kitchenette",
+      "Gym"
+    ],
+    "images": [
+      "urbanpulse1.jpg"
+    ],
+    "rooms": [
+      "Extended Stay Apartment"
+    ],
+    "cheapestPrice": 3800,
+    "feature": false,
+    "description": "Functional studios featuring mini-kitchens for consulting professionals."
+  },
+  {
+    "name": "Marigold Sand Dunes",
+    "type": "resort",
+    "city": "Jodhpur",
+    "ratings": 4.6,
+    "address": "Osian Desert Track",
+    "distance": 45,
+    "category": [
+      "Desert",
+      "Star Gazing",
+      "Camel Safari"
+    ],
+    "images": [
+      "marigoldsand1.jpg"
+    ],
+    "rooms": [
+      "Luxury Canvas Dome"
+    ],
+    "cheapestPrice": 6200,
+    "feature": false,
+    "description": "Off-grid luxury desert camp featuring unobstructed astronomical night skies."
+  },
+  {
+    "name": "The French Quarter Inn",
+    "type": "hotel",
+    "city": "Puducherry",
+    "ratings": 4.6,
+    "address": "Dumas Street",
+    "distance": 0.2,
+    "category": [
+      "Heritage",
+      "Cafe",
+      "Bicycles"
+    ],
+    "images": [
+      "frenchquarter1.jpg"
+    ],
+    "rooms": [
+      "Colonial High-Ceiling Suite"
+    ],
+    "cheapestPrice": 5300,
+    "feature": true,
+    "description": "Boasts classic mustard-colored walls and private inner courtyard fountains."
+  },
+  {
+    "name": "Silver Cascade Resort",
+    "type": "resort",
+    "city": "Yercaud",
+    "ratings": 4.3,
+    "address": "Kiliyur Falls Road",
+    "distance": 1.7,
+    "category": [
+      "Mountain",
+      "Coffee Plantation",
+      "Pool"
+    ],
+    "images": [
+      "silvercascade1.jpg"
+    ],
+    "rooms": [
+      "Premium Valley Balcony"
+    ],
+    "cheapestPrice": 4200,
+    "feature": false,
+    "description": "Breathtaking viewpoints looking directly over the Shevaroy hills cascades."
+  },
+  {
+    "name": "The Saffron Residency",
+    "type": "hotel",
+    "city": "Srinagar",
+    "ratings": 4.7,
+    "address": "Boulevard Road, Dal Lake",
+    "distance": 0.1,
+    "category": [
+      "Lake View",
+      "Traditional",
+      "Shikara Pier"
+    ],
+    "images": [
+      "saffronres1.jpg"
+    ],
+    "rooms": [
+      "Carved Walnut Wood Room"
+    ],
+    "cheapestPrice": 5900,
+    "feature": true,
+    "description": "Direct waterfront steps providing dynamic transit access to houseboats."
+  },
+  {
+    "name": "The Boulder Fields Lodge",
+    "type": "resort",
+    "city": "Hampi",
+    "ratings": 4.8,
+    "address": "Anegundi River Bank",
+    "distance": 2.5,
+    "category": [
+      "Heritage",
+      "Coracle Boating",
+      "Climbing"
+    ],
+    "images": [
+      "boulderfields1.jpg"
+    ],
+    "rooms": [
+      "Rustic Rock Villa"
+    ],
+    "cheapestPrice": 6100,
+    "feature": true,
+    "description": "Blends seamlessly into the surreal ancient granite boulder landscape."
+  },
+  {
+    "name": "Metro Central Suites",
+    "type": "hotel",
+    "city": "Kolkata",
+    "ratings": 4.2,
+    "address": "Salt Lake Sector V",
+    "distance": 0.5,
+    "category": [
+      "Business",
+      "Conference Space",
+      "Bar"
+    ],
+    "images": [
+      "metrocentral1.jpg"
+    ],
+    "rooms": [
+      "Executive Club Twin"
+    ],
+    "cheapestPrice": 3600,
+    "feature": false,
+    "description": "A high-efficiency base situated squarely inside Bengal's modern IT district."
+  },
+  {
+    "name": "Cardamom Mist Plantation",
+    "type": "resort",
+    "city": "Thekkady",
+    "ratings": 4.5,
+    "address": "Kumily Spice Hill",
+    "distance": 3.8,
+    "category": [
+      "Nature",
+      "Spice Walk",
+      "Ayurveda"
+    ],
+    "images": [
+      "cardamommist1.jpg"
+    ],
+    "rooms": [
+      "Forest Canopy Cottage"
+    ],
+    "cheapestPrice": 4900,
+    "feature": false,
+    "description": "Wake up enveloped by thick aromatic spice gardens and morning dew."
+  },
+  {
+    "name": "The Royal Vista Fort",
+    "type": "hotel",
+    "city": "Chittorgarh",
+    "ratings": 4.4,
+    "address": "Fort Access Road",
+    "distance": 0.9,
+    "category": [
+      "Heritage",
+      "Fort View",
+      "Museum Tour"
+    ],
+    "images": [
+      "royalvista1.jpg"
+    ],
+    "rooms": [
+      "Mewar Heritage King"
+    ],
+    "cheapestPrice": 4300,
+    "feature": false,
+    "description": "Unmatched panoramic sights of the legendary cliffside Chittor fortifications."
+  },
+  {
+    "name": "Bay of Palms Stay",
+    "type": "resort",
+    "city": "Visakhapatnam",
+    "ratings": 4.4,
+    "address": "Bheemili Beach Road",
+    "distance": 0.2,
+    "category": [
+      "Beach",
+      "Infinity Pool",
+      "Seafood"
+    ],
+    "images": [
+      "bayofpalms1.jpg"
+    ],
+    "rooms": [
+      "Panoramic Sea View Villa"
+    ],
+    "cheapestPrice": 7500,
+    "feature": true,
+    "description": "Modern oceanfront architecture overlooking the historic Dutch cemetery shorelines."
+  },
+  {
+    "name": "The Jade Pavilion",
+    "type": "hotel",
+    "city": "Bengaluru",
+    "ratings": 4.5,
+    "address": "Whitefield Main Road",
+    "distance": 1,
+    "category": [
+      "Business",
+      "Luxury Spa",
+      "Fine Dining"
+    ],
+    "images": [
+      "jadepavilion1.jpg"
+    ],
+    "rooms": [
+      "Signature Club Suite"
+    ],
+    "cheapestPrice": 8900,
+    "feature": true,
+    "description": "High-end corporate hospitality with tranquil Japanese zen gardens inside."
+  },
+  {
+    "name": "Cloud Meadows Retreat",
+    "type": "resort",
+    "city": "Wayanad",
+    "ratings": 4.6,
+    "address": "Vythiri High Range",
+    "distance": 6.2,
+    "category": [
+      "Nature",
+      "Waterfalls",
+      "Trekking"
+    ],
+    "images": [
+      "cloudmeadows1.jpg"
+    ],
+    "rooms": [
+      "Stream-Side Log Cabin"
+    ],
+    "cheapestPrice": 5600,
+    "feature": false,
+    "description": "Secluded cabins with glass roofs to view local rainforest tree lines."
+  },
+  {
+    "name": "The Holy Confluence Inn",
+    "type": "hotel",
+    "city": "Prayagraj",
+    "ratings": 4.3,
+    "address": "Triveni Sangam Road",
+    "distance": 1.5,
+    "category": [
+      "Spiritual",
+      "Vegetarian",
+      "Transit"
+    ],
+    "images": [
+      "holyconfluence1.jpg"
+    ],
+    "rooms": [
+      "Sangam View Family Suite"
+    ],
+    "cheapestPrice": 3100,
+    "feature": false,
+    "description": "Comfortable family lodging focusing closely on bathing ghat access."
+  },
+  {
+    "name": "The Salt Desert Lodge",
+    "type": "resort",
+    "city": "Bhuj",
+    "ratings": 4.7,
+    "address": "Dhordo Rann Edge",
+    "distance": 2,
+    "category": [
+      "Desert",
+      "Crafts Tour",
+      "Cultural"
+    ],
+    "images": [
+      "saltdesert1.jpg"
+    ],
+    "rooms": [
+      "Traditional Bhunga Mud Hut"
+    ],
+    "cheapestPrice": 8800,
+    "feature": true,
+    "description": "Authentic circular structures built directly beside the Great Rann of Kutch."
+  },
+  {
+    "name": "The Boulevard Corner",
+    "type": "hotel",
+    "city": "New Delhi",
+    "ratings": 4.2,
+    "address": "Chanakyapuri Diplomatic Enclave",
+    "distance": 0.5,
+    "category": [
+      "Business",
+      "Luxury",
+      "Lounge"
+    ],
+    "images": [
+      "blvdcorner1.jpg"
+    ],
+    "rooms": [
+      "Diplomatic Premium Room"
+    ],
+    "cheapestPrice": 9500,
+    "feature": true,
+    "description": "Ultra-secure corporate hotel surrounded by sprawling embassy gardens."
+  },
+  {
+    "name": "The Cliffside Sanctuary",
+    "type": "resort",
+    "city": "Varkala",
+    "ratings": 4.6,
+    "address": "South Cliff Edge",
+    "distance": 0.1,
+    "category": [
+      "Beach",
+      "Ayurveda Spa",
+      "Cafe"
+    ],
+    "images": [
+      "cliffsidevark1.jpg"
+    ],
+    "rooms": [
+      "Clifftop Straw Villa"
+    ],
+    "cheapestPrice": 5200,
+    "feature": false,
+    "description": "Idyllic position for watching dolphins drop along the Arabian sea line."
+  },
+  {
+    "name": "The Gateway Hub",
+    "type": "hotel",
+    "city": "Siliguri",
+    "ratings": 4.1,
+    "address": "Hill Cart Road",
+    "distance": 0.4,
+    "category": [
+      "Transit",
+      "Wifi",
+      "Restaurant"
+    ],
+    "images": [
+      "gatewayhub1.jpg"
+    ],
+    "rooms": [
+      "Standard Transit Twin"
+    ],
+    "cheapestPrice": 2700,
+    "feature": false,
+    "description": "Strategic stopover property ideal for travelers heading to Darjeeling or Sikkim."
+  },
+  {
+    "name": "The Orchid Glen Homestay",
+    "type": "resort",
+    "city": "Kalimpong",
+    "ratings": 4.6,
+    "address": "Durpin Dara Hillside",
+    "distance": 1.8,
+    "category": [
+      "Mountain",
+      "Nursery Tour",
+      "Cafe"
+    ],
+    "images": [
+      "orchidglen1.jpg"
+    ],
+    "rooms": [
+      "Wooden Attic Studio"
+    ],
+    "cheapestPrice": 3400,
+    "feature": false,
+    "description": "Charming estate prioritizing local floriculture views and organic meals."
+  },
+  {
+    "name": "Capital Landmark Hotel",
+    "type": "hotel",
+    "city": "Ranchi",
+    "ratings": 4.2,
+    "address": "Main Road Commercial",
+    "distance": 0.2,
+    "category": [
+      "Business",
+      "Gym",
+      "Transit"
+    ],
+    "images": [
+      "caplandmark1.jpg"
+    ],
+    "rooms": [
+      "Executive Corporate Double"
+    ],
+    "cheapestPrice": 3300,
+    "feature": false,
+    "description": "Quick check-in processes optimized specifically for visiting regional managers."
+  },
+  {
+    "name": "The Lion Kingdom Hideaway",
+    "type": "resort",
+    "city": "Gir Somnath",
+    "ratings": 4.8,
+    "address": "Sasan Gir Jungle Track",
+    "distance": 3,
+    "category": [
+      "Wildlife",
+      "Safari",
+      "Pool"
+    ],
+    "images": [
+      "lionkingdom1.jpg"
+    ],
+    "rooms": [
+      "Luxury Safari Cabin"
+    ],
+    "cheapestPrice": 10500,
+    "feature": true,
+    "description": "The premium launchpad for viewing the Asiatic lions in their natural habitat."
+  },
+  {
+    "name": "The Regal Pavilion",
+    "type": "hotel",
+    "city": "Gwalior",
+    "ratings": 4.4,
+    "address": "Jai Vilas Palace Road",
+    "distance": 0.7,
+    "category": [
+      "Heritage",
+      "Fine Dining",
+      "Pool"
+    ],
+    "images": [
+      "regalpavilion1.jpg"
+    ],
+    "rooms": [
+      "Scindia Heritage Suite"
+    ],
+    "cheapestPrice": 5100,
+    "feature": false,
+    "description": "Interiors heavily reflecting royal classical themes near the grand museum grounds."
+  },
+  {
+    "name": "Blue Horizon Surf Lodge",
+    "type": "resort",
+    "city": "Mahabalipuram",
+    "ratings": 4.6,
+    "address": "Fisherman Colony Coast",
+    "distance": 1.1,
+    "category": [
+      "Beach",
+      "Surf School",
+      "Cafe"
+    ],
+    "images": [
+      "surflodge1.jpg"
+    ],
+    "rooms": [
+      "Backpackers Surf Cabin"
+    ],
+    "cheapestPrice": 4500,
+    "feature": true,
+    "description": "An upbeat vibrant stay catering cleanly to water sports and ocean surfing."
+  },
+  {
+    "name": "The Coromandel Tower",
+    "type": "hotel",
+    "city": "Chennai",
+    "ratings": 4.3,
+    "address": "OMR Tech Corridor",
+    "distance": 0.5,
+    "category": [
+      "Business",
+      "Rooftop Lounge",
+      "Gym"
+    ],
+    "images": [
+      "coromandel1.jpg"
+    ],
+    "rooms": [
+      "Tech View King Room"
+    ],
+    "cheapestPrice": 4400,
+    "feature": false,
+    "description": "Overlooks Chennai's massive dynamic IT highway with sweeping glass panels."
+  },
+  {
+    "name": "The Whispering Pines Eco-Camp",
+    "type": "resort",
+    "city": "Almora",
+    "ratings": 4.7,
+    "address": "Kasardevi Ridge",
+    "distance": 4,
+    "category": [
+      "Mountain",
+      "Yoga",
+      "Campfire"
+    ],
+    "images": [
+      "whisperingalmora1.jpg"
+    ],
+    "rooms": [
+      "Luxury Glamping Dome"
+    ],
+    "cheapestPrice": 5800,
+    "feature": true,
+    "description": "Sits directly on the meditative cosmic ridge line with views of Nanda Devi."
+  },
+  {
+    "name": "Temple Crest Residency",
+    "type": "hotel",
+    "city": "Tirupati",
+    "ratings": 4.5,
+    "address": "Alipiri Foothills Road",
+    "distance": 0.6,
+    "category": [
+      "Spiritual",
+      "Transit",
+      "Vegetarian Dining"
+    ],
+    "images": [
+      "templecresttiru1.jpg"
+    ],
+    "rooms": [
+      "Pilgrim Triple Room"
+    ],
+    "cheapestPrice": 2900,
+    "feature": false,
+    "description": "Conveniently near the pedestrian walking paths up the holy hills."
+  },
+  {
+    "name": "Teak Forest Wilderness",
+    "type": "resort",
+    "city": "Dandeli",
+    "ratings": 4.5,
+    "address": "Kali River Crossing",
+    "distance": 4.8,
+    "category": [
+      "Wildlife",
+      "River Rafting",
+      "Tents"
+    ],
+    "images": [
+      "teakforest1.jpg"
+    ],
+    "rooms": [
+      "River View Luxury Tent"
+    ],
+    "cheapestPrice": 6300,
+    "feature": false,
+    "description": "A thrill-seeker's basecamp designed for white-water rafting runs."
+  },
+  {
+    "name": "The Heritage Horizon",
+    "type": "hotel",
+    "city": "Mandawa",
+    "ratings": 4.6,
+    "address": "Shekhawati Fresco Lane",
+    "distance": 0.2,
+    "category": [
+      "Heritage",
+      "Art Walk",
+      "Cultural"
+    ],
+    "images": [
+      "heritagehorizon1.jpg"
+    ],
+    "rooms": [
+      "Fresco Painted Double Room"
+    ],
+    "cheapestPrice": 4800,
+    "feature": true,
+    "description": "Intricately detailed architecture functioning like a living, open-air art gallery."
+  },
+  {
+    "name": "The Lagoon Edge Eco-Stay",
+    "type": "resort",
+    "city": "Chilika",
+    "ratings": 4.4,
+    "address": "Mangalajodi Bird Route",
+    "distance": 0.8,
+    "category": [
+      "Nature",
+      "Bird Watching",
+      "Boating"
+    ],
+    "images": [
+      "lagoonedge1.jpg"
+    ],
+    "rooms": [
+      "Wetlands Viewing Cottage"
+    ],
+    "cheapestPrice": 3700,
+    "feature": false,
+    "description": "Perfect location for photographers tracking migratory Siberian wetland birds."
+  },
+  {
+    "name": "The Cyber Hub Suites",
+    "type": "hotel",
+    "city": "Hyderabad",
+    "ratings": 4.2,
+    "address": "HITEC City Phase 2",
+    "distance": 0.3,
+    "category": [
+      "Business",
+      "Wifi",
+      "Conference"
+    ],
+    "images": [
+      "cyberhubhyd1.jpg"
+    ],
+    "rooms": [
+      "Executive Smart Room"
+    ],
+    "cheapestPrice": 4600,
+    "feature": false,
+    "description": "Highly modern hotel layout directly accessing tech innovation labs."
+  },
+  {
+    "name": "The Snow Leopard Base",
+    "type": "resort",
+    "city": "Kaza",
+    "ratings": 4.9,
+    "address": "Spiti Valley Highway",
+    "distance": 1.5,
+    "category": [
+      "Mountain",
+      "Wildlife Safari",
+      "Heater"
+    ],
+    "images": [
+      "snowleopard1.jpg"
+    ],
+    "rooms": [
+      "Heated Winter Mud Cabin"
+    ],
+    "cheapestPrice": 8200,
+    "feature": true,
+    "description": "Specialized high-altitude lodge hosting intense winter wildlife tracks."
+  },
+  {
+    "name": "The Deccan Court",
+    "type": "hotel",
+    "city": "Aurangabad",
+    "ratings": 4.4,
+    "address": "Jalna Road",
+    "distance": 2.2,
+    "category": [
+      "Heritage",
+      "Transit",
+      "Restaurant"
+    ],
+    "images": [
+      "deccancourt1.jpg"
+    ],
+    "rooms": [
+      "Ajanta Deluxe Suite"
+    ],
+    "cheapestPrice": 3900,
+    "feature": false,
+    "description": "The perfect starting exploration launchpad for the Ellora cave systems."
+  },
+  {
+    "name": "The Coconut Fringe",
+    "type": "resort",
+    "city": "Poovar",
+    "ratings": 4.7,
+    "address": "Estuary Island Coast",
+    "distance": 0.1,
+    "category": [
+      "Backwaters",
+      "Beach",
+      "Pool"
+    ],
+    "images": [
+      "coconutfringe1.jpg"
+    ],
+    "rooms": [
+      "Floating Estuary Cottage"
+    ],
+    "cheapestPrice": 11200,
+    "feature": true,
+    "description": "Stunning cottages built on floating decks where river meets ocean."
+  },
+  {
+    "name": "The Industrial Hub Stay",
+    "type": "hotel",
+    "city": "Jamshedpur",
+    "ratings": 4.1,
+    "address": "Bistupur Market Road",
+    "distance": 0.4,
+    "category": [
+      "Business",
+      "Gym",
+      "Transit"
+    ],
+    "images": [
+      "industrialhub1.jpg"
+    ],
+    "rooms": [
+      "Standard Corporate Double"
+    ],
+    "cheapestPrice": 3100,
+    "feature": false,
+    "description": "Clean, reliable stays focusing strictly on business executive routines."
+  },
+  {
+    "name": "The Coffee Valley Ridge",
+    "type": "resort",
+    "city": "Chikmagalur",
+    "ratings": 4.6,
+    "address": "Baba Budangiri Hills",
+    "distance": 5.4,
+    "category": [
+      "Mountain",
+      "Coffee Tour",
+      "Pool"
+    ],
+    "images": [
+      "coffeevalleyridge1.jpg"
+    ],
+    "rooms": [
+      "Private Plantation Villa"
+    ],
+    "cheapestPrice": 7900,
+    "feature": true,
+    "description": "Wake up to aromatic breezes over high-elevation western ghats."
+  },
+  {
+    "name": "Ganges Sanctum Lodge",
+    "type": "hotel",
+    "city": "Haridwar",
+    "ratings": 4.5,
+    "address": "Har Ki Pauri Ghat",
+    "distance": 0.2,
+    "category": [
+      "Spiritual",
+      "Vegetarian",
+      "Ghat View"
+    ],
+    "images": [
+      "gangessanctum1.jpg"
+    ],
+    "rooms": [
+      "Holy River View Suite"
+    ],
+    "cheapestPrice": 4400,
+    "feature": true,
+    "description": "Witness morning chanting protocols directly over the primary river currents."
+  },
+  {
+    "name": "The Pine Shadow Chalet",
+    "type": "resort",
+    "city": "Manali",
+    "ratings": 4.6,
+    "address": "Solang Valley Track",
+    "distance": 0.5,
+    "category": [
+      "Mountain",
+      "Paragliding",
+      "Fireplace"
+    ],
+    "images": [
+      "pineshadow1.jpg"
+    ],
+    "rooms": [
+      "Luxury Duplex Attic"
+    ],
+    "cheapestPrice": 6400,
+    "feature": false,
+    "description": "Adventure lodge facilitating direct ski setups and adventure sports."
+  },
+  {
+    "name": "The Silk Route Residency",
+    "type": "hotel",
+    "city": "Bhagalpur",
+    "ratings": 4,
+    "address": "Station Road Area",
+    "distance": 0.6,
+    "category": [
+      "Business",
+      "Transit",
+      "Wifi"
+    ],
+    "images": [
+      "silkroute1.jpg"
+    ],
+    "rooms": [
+      "Smart Business Twin"
+    ],
+    "cheapestPrice": 2500,
+    "feature": false,
+    "description": "Straightforward corporate utility space tailored for textile trade visits."
+  },
+  {
+    "name": "The Mangrove Canopy",
+    "type": "resort",
+    "city": "Sundarbans",
+    "ratings": 4.3,
+    "address": "Sajnekhali Bird Corner",
+    "distance": 14,
+    "category": [
+      "Wildlife",
+      "Nature Walk",
+      "Boat Cruise"
+    ],
+    "images": [
+      "mangrovecanopy1.jpg"
+    ],
+    "rooms": [
+      "Rustic Forest Thatch Cab"
+    ],
+    "cheapestPrice": 4100,
+    "feature": false,
+    "description": "Deep jungle eco-tourism layout emphasizing footprint-free carbon tracking."
+  }
 ]
