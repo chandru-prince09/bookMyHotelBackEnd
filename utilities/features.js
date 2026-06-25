@@ -1,4 +1,4 @@
-class Apifeatures {     // to create a object 
+class apifeatures {     // to create a object 
     constructor(queryObj, queryParam) {
         this.queryObj = queryObj;
         this.queryParam = queryParam;
@@ -89,4 +89,4 @@ const getFilteredFinalQuery = (queryObj) => {
 
 
 
-module.exports = Apifeatures
+module.exports = apifeatures
