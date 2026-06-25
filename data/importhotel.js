@@ -61,7 +61,7 @@ const importDocuments = async () => {
     }
 }
 
-const connectionString = "mongodb+srv://admin:chandru123@madras.oa5w6ni.mongodb.net/bookmyhotel?appName=madras";
+const connectionString = process.env.CONNECTION_STRING;
 
 const run = async () => {
     try {

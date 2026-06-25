@@ -4,19 +4,35 @@ const hotelrouter = express.Router();
 
 
 // alias with hyphen to match requests like '/get-featured' from Postman
+
+// Special routes BEFORE /:id parameter route
 hotelrouter.route("/get-featured")
-    .get(hotelControl.getFeaturedHotels, hotelControl.getAllHotels)
-hotelrouter.route("/")
-    .get(hotelControl.getAllHotels)
-    .post(hotelControl.createHotel)
+    .get(hotelControl.getFeaturedHotels)
+
 hotelrouter.route("/get-stats")
     .get(hotelControl.getHotelStats)
 
+hotelrouter.route("/getHotelByCategory")
+    .get(hotelControl.getHotelByCategory)
+
+// routes expecting path params
+hotelrouter.route("/getHotelByCity/:city")
+    .get(hotelControl.getHotelsByCity)
+
+hotelrouter.route("/getHotelByType/:type")
+    .get(hotelControl.getHotelsByType)
+
+hotelrouter.route("/")
+    .get(hotelControl.getAllHotels)
+    .post(hotelControl.createHotel)
 hotelrouter.route("/:id")
     .get(hotelControl.getHotelById)
     .patch(hotelControl.updateHotel)
     .delete(hotelControl.deleteHotel)
     .put(hotelControl.updateHotel)
+
+
+
 
 
 

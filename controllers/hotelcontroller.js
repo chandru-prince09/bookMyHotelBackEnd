@@ -38,10 +38,10 @@ exports.getAllHotels = async (req, res) => {
         });
     }
     catch (err) {
-        console.log(err);
+        console.error("getAllHotels error:", err);
         res.status(500).json({
             status: 'fail',
-            message: "error found"
+            message: err.message || "error found"
         });
     }
 };
@@ -128,15 +128,92 @@ exports.getHotelStats = async (req, res) => {
 
 
             { $addFields: { city: "$_id" } },
-            { $project: {_id: 0,}},
+            { $project: { _id: 0, } },
 
 
         ]);
-
         res.status(200).json({
             status: "success",
             count: hotelstats.length,
             data: hotelstats
+        });
+    } catch (error) {
+        res.status(400).json({
+            status: "fail",
+            message: error.message
+        });
+    }
+}
+
+exports.getHotelByCategory = async (req, res) => {
+    try {
+        const hotelCategoryStats = await Hotel.aggregate([
+            { $unwind: "$category" },
+            {
+                $group: {
+                    _id: "$category",
+                    hotels: { $push: "$name" },
+                    count: { $sum: 1 }
+                }
+            }
+        ]);
+
+
+
+        res.status(200).json({
+            status: "success",
+            count: hotelCategoryStats.length,
+            data: hotelCategoryStats
+        });
+    } catch (error) {
+        res.status(400).json({
+            status: "fail",
+            message: error.message
+        });
+    }
+}
+
+exports.getFeaturedHotels = async (req, res) => {
+    try {
+        const featuredHotels = await Hotel.find({ feature: true }).sort('-ratings').limit(5);
+        res.status(200).json({
+            status: "success",
+            count: featuredHotels.length,
+            data: featuredHotels
+        });
+    } catch (error) {
+        res.status(400).json({
+            status: "fail",
+            message: error.message
+        });
+    }
+}  
+
+exports.getHotelsByCity = async (req, res) => {
+    try {
+        const city = req.params.city;
+        const hotelsByCity = await Hotel.find({ city: city });
+        res.status(200).json({
+            status: "success",
+            count: hotelsByCity.length,
+            data: hotelsByCity
+        });
+    } catch (error) {
+        res.status(400).json({
+            status: "fail",
+            message: error.message
+        });
+    }
+}
+
+exports.getHotelsByType = async (req, res) => {
+    try {
+        const type = req.params.type;
+        const hotelsByType = await Hotel.find({ type: type });
+        res.status(200).json({
+            status: "success",
+            count: hotelsByType.length,
+            data: hotelsByType
         });
     } catch (error) {
         res.status(400).json({
