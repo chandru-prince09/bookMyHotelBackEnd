@@ -1,10 +1,16 @@
 const dns = require("dns");
 const mongoose = require("mongoose");
 const app = require("./index");
-const port = 4500;
+const port = process.env.PORT || 3000;
+const dotenv = require("dotenv");
+dotenv.config({
+     path: "./config.env" 
+    });
+// console.log(app.get('env'))
+console.log(process.env);
 
 dns.setServers(["8.8.8.8", "8.8.4.4"]);
-const connectionString = "mongodb+srv://admin:chandru123@madras.oa5w6ni.mongodb.net/bookmyhotel?appName=madras";
+const connectionString = process.env.CONNECTION_STRING;
 
 mongoose.connect(connectionString)
     .then(() => {
