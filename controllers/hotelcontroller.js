@@ -175,7 +175,11 @@ exports.getHotelByCategory = async (req, res) => {
 
 exports.getFeaturedHotels = async (req, res) => {
     try {
-        const featuredHotels = await Hotel.find({ feature: true }).sort('-ratings').limit(5);
+        const featuredHotels = await Hotel.aggregate([
+            { $match: { feature: true } },
+            { $sort: { ratings: -1 } },
+            { $limit: 5 }
+        ]);
         res.status(200).json({
             status: "success",
             count: featuredHotels.length,
@@ -191,8 +195,16 @@ exports.getFeaturedHotels = async (req, res) => {
 
 exports.getHotelsByCity = async (req, res) => {
     try {
-        const city = req.params.city;
-        const hotelsByCity = await Hotel.find({ city: city });
+        
+        const hotelsByCity = await Hotel.aggregate([
+            {
+                $group: {
+                    _id: "$city",
+                    hotels: { $push: "$$ROOT" },
+                    count: { $sum: 1 }
+                }
+            }
+        ]);
         res.status(200).json({
             status: "success",
             count: hotelsByCity.length,
@@ -208,8 +220,19 @@ exports.getHotelsByCity = async (req, res) => {
 
 exports.getHotelsByType = async (req, res) => {
     try {
-        const type = req.params.type;
-        const hotelsByType = await Hotel.find({ type: type });
+        
+        const hotelsByType = await Hotel.aggregate([
+            {
+                $group: {
+                    _id: "$type",
+                     totalHotels: { $sum: 1 },
+                     minPrice: { $min: "$cheapestPrice" },
+                }},
+            { $sort: { totalHotels: -1 } },
+            { $limit: 5 },
+            { $addFields: { type: "$_id" } },
+            { $project: { _id: 0, } },
+        ]);
         res.status(200).json({
             status: "success",
             count: hotelsByType.length,

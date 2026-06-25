@@ -12,10 +12,10 @@ hotelrouter.route("/get-stats")
 hotelrouter.route("/getHotelByCategory")
     .get(hotelControl.getHotelByCategory)
 
-hotelrouter.route("/getHotelByCity/:city")
+hotelrouter.route("/getHotelByCity")
     .get(hotelControl.getHotelsByCity)
 
-hotelrouter.route("/getHotelByType/:type")
+hotelrouter.route("/getHotelByType")
     .get(hotelControl.getHotelsByType)
 
 hotelrouter.route("/")
