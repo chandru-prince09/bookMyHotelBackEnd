@@ -43,8 +43,14 @@ const hotelSchema = new mongoose.Schema(
         },
         ratings: {
             type: Number,
-            min:1,
-            max:10,
+            min:0,
+            max:5,
+            // validate:{
+            //     validator:function(value){
+            //         return value>=0&&value<=5
+            //     },
+            //     message:"ratings must be between 1 and 10"
+            // }
 
         },
         city: {
@@ -78,7 +84,7 @@ hotelSchema.virtual("isPremium").get(function () {
 
 hotelSchema.pre("save", function (next) {
      this.createdAt = new Date();
-     this.createdBy = "Kavya"
+     this.createdBy = "Theramaiyanavanga"
      
 });
 hotelSchema.pre("find",function(){
