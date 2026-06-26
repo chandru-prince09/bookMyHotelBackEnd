@@ -247,3 +247,4 @@ exports.getHotelsByType = async (req, res) => {
         });
     }
 }
+

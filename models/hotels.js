@@ -79,6 +79,16 @@ hotelSchema.pre("find",function(){
     console.log(this)
 })
 
+hotelSchema.post("find",function(docs){
+    console.log(`${docs.length}hotel retrived`)
+})
+hotelSchema.pre("aggregate",function(){
+    this.pipeline().unshift({
+        $match:{isDeleted:false}
+    })
+})
+
 const hotel = mongoose.model("hotel", hotelSchema);
+
 
 module.exports = hotel;
