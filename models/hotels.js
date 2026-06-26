@@ -43,10 +43,16 @@ const hotelSchema = new mongoose.Schema(
         },
         ratings: {
             type: Number,
+            min:1,
+            max:10,
+
         },
         city: {
             type: String,
             required: [true, "ciy is required"],
+            minLength:3,
+            maxLength:60,
+
         },
         country: {
             type: String,
