@@ -51,16 +51,33 @@ const hotelSchema = new mongoose.Schema(
         country: {
             type: String,
         },
+        createdAt: {
+            type: Date,
+            default: Date.now,
+        },
+        createdBy: {
+            type: String,
+            default: "kavya",
+        },
     },
     {
-        toJSON: { virtuals: true }
-        
+        toJSON: { virtuals: true },
+        toObject: { virtuals: true },
     }
 );
 
 hotelSchema.virtual("isPremium").get(function () {
     return this.cheapestPrice >= 2000;
 });
+
+hotelSchema.pre("save", function (next) {
+     this.createdAt = new Date();
+     this.createdBy = "Kavya"
+     
+});
+hotelSchema.pre("find",function(){
+    console.log(this)
+})
 
 const hotel = mongoose.model("hotel", hotelSchema);
 
