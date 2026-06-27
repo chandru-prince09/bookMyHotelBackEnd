@@ -12,6 +12,8 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:[true,"lastname is required"],
         trim:true,
+        lowercase:true,
+        validate:[validator.isAlpha,"lastname must be alphabetic"]
         
 
     },
@@ -19,9 +21,16 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:[true,"email is required"],
         unique:true,
-        lowercase:true
+        lowercase:true,
+        trim:true,
+        validate:[validator.isEmail,"email is invalid"]
         
     },
+    photo:{
+        type:String,
+        required:[true,"photo is required"],
+    },
+    
     password:{
         type:String,
         required:[true,"password is required"],
@@ -34,7 +43,11 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:[true,"mobilenumber is required"],
         unique:true,
-        timestamps:true
+        
+    },
+    timestamp:{
+        type:Date,
+        default:Date.now,
     },
 
     
