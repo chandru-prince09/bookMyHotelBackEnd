@@ -35,9 +35,15 @@ const userSchema = new mongoose.Schema({
         type:String,
         required:[true,"password is required"],
     },
-    confirmpassword:{
+    confirmPassword:{
         type:String,
         required:[true,"confirmpassword is required"],
+        validate:{
+            validator:function(value){
+                return value===this.password
+            },
+            message:"confirmpassword is not matching"
+        }
     },
     mobilenumber:{
         type:String,

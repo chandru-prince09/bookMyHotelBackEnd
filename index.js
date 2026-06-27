@@ -9,7 +9,8 @@ app.use("/api/v1/auth",authRouter);
 app.use("/api/v1/users",userRouter);
 //global error handling middleware
 app.use((error,req,res,next)=>{
-    res.status(error.status.code||500).json({
+    const statusCode = error.statusCode || 500;
+    res.status(statusCode).json({
         status:error.status||"error",
         message:error.message
     })
