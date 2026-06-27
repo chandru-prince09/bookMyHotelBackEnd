@@ -1,9 +1,12 @@
 const express = require("express");
-const hotelrouter = require("./routers/hotelrouter");
+const hotelRouter = require("./routers/hotelrouter");
+const authRouter = require("./routers/authrouter");
+const userRouter = require("./routers/userrouter");
 const app = express();
 app.use(express.json());
-app.use("/api/v1/hotels", hotelrouter);
-app.use("/api/v1/users",user);
+app.use("/api/v1/hotels", hotelRouter);
+app.use("/api/v1/auth",authRouter);
+app.use("/api/v1/users",userRouter);
 //global error handling middleware
 app.use((error,req,res,next)=>{
     res.status(error.status.code||500).json({
